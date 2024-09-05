@@ -23,10 +23,7 @@ class SSH:
         self.channel = self.__client.invoke_shell()
 
     def connect(self):
-        """
-        打开连接
-        :return:None
-        """
+
         self.__client.set_missing_host_key_policy(AutoAddPolicy())
         self.__client.connect(self.ip, self.port, self.username, self.password)
 
@@ -34,10 +31,7 @@ class SSH:
         self.__client.close()
 
     def invoke_shell(self, command):
-        """
-        invoke_shell使用的是SSH shell channel的方式执行，具备持久化能力，就类似和我们平时用MobaXterm，xshell等这些终端软件连接上去一样
-        适合场景：需要一些持久化的操作；需要使用一些交互式命令
-        """
+
         self.channel.sendall(command + "\r\n")
         time.sleep(2)
         # while True:
@@ -50,13 +44,7 @@ class SSH:
         #         print(outbuf)
 
     def execute(self, command: str, wait_time=1, sudo=False):
-        """
-        执行命令，stderr未启用
-        :param command: windows命令
-        :return: None
-        'echo %s| sudo -S %s' % (self.password, command)'
-        exec_command使用的是SSH exec channel的方式执行，不具备持久化的能力，也就是每次运行都是一次全新的环境,不能使用nohup
-        """
+
         if not sudo:
             std_in, stdout, stderr = self.__client.exec_command(command=command)
         else:
@@ -70,12 +58,7 @@ class SSH:
         return result2
 
     def upload_file(self, local_file_path: str, remote_file_path: str):
-        """
-        打开sftp会话，用于将本地文件上传到远程设备
-        :param local_file_path: 本地文件绝对路径
-        :param remote_file_path: 远程文件路径:命名方式:path+filename
-        :return:
-        """
+
         sftp: SFTPClient = self.__client.open_sftp()
         try:
             sftp.put(localpath=local_file_path, remotepath=remote_file_path)
@@ -88,12 +71,7 @@ class SSH:
             return False
 
     def download_file(self, remote_file_path: str, local_save_path):
-        """
-        打开sftp会话，用于将远程设备文件拉取到本地
-        :param remote_file_path: 远程设备绝对路径
-        :param local_save_path: 本地文件保存路径 命名方式:file +filename 注意需要指定文件名，否则报错
-        :return:
-        """
+
         sftp: SFTPClient = self.__client.open_sftp()
         try:
             sftp.get(remotepath=remote_file_path, localpath=local_save_path)
@@ -104,10 +82,7 @@ class SSH:
             )
 
     def get_shell(self):
-        """
-        获取shell
-        :return:
-        """
+
         while True:
             command = input(f"{self.ip}@{self.username}$:")
             if command.__eq__("quit"):
@@ -149,7 +124,7 @@ class Vulhub_operator:
 
         """
         # ---------------------------------------------------------------------------- #
-        #                              开始之前清空已开启的所有docker                              #
+        #                              close docker                              #
         # ---------------------------------------------------------------------------- #
         """
 
@@ -168,7 +143,7 @@ class Vulhub_operator:
 
         """
         # ---------------------------------------------------------------------------- #
-        #                                   开启相应漏洞靶机                                   #
+        #                                   open target                                   #
         # ---------------------------------------------------------------------------- #
         """
 
@@ -203,18 +178,18 @@ if __name__ == "__main__":
         help="target ip, e.g. 127.0.0.1 or 127.0.0.1/24",
     )
     parser.add_argument(
-        "--port", default="22", help="target ip, e.g. 127.0.0.1 or 127.0.0.1/24"
+        "--port", default="22"
     )
     parser.add_argument(
-        "--username", default="kali", help="target ip, e.g. 127.0.0.1 or 127.0.0.1/24"
+        "--username"
     )
     parser.add_argument(
-        "--password", default="kali", help="target ip, e.g. 127.0.0.1 or 127.0.0.1/24"
+        "--password"
     )
     parser.add_argument(
         "--vulhub_path", default="/home/kali/vulhub", help="path of vulhub"
     )
-    parser.add_argument("--vul", default="CVE-2021-3129", help="support PPO")
+    parser.add_argument("--vul", default="CVE-2021-3129")
 
     args = parser.parse_args()
 

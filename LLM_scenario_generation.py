@@ -110,7 +110,7 @@ if __name__ == "__main__":
             json_data.append(data)
 
     
-    # 打印聊天结果。
+    
     # pprint(result)
     result_file = open(generated_scenarios_path /f"{file_prefix}-{len(json_data)}.md", "w")
     result_file.write(f"# {vul} \n")
