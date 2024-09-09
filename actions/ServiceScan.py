@@ -70,24 +70,7 @@ class ServicesScan:
                 port = str(key)
                 if not self.port:
                     port_list.append(port)
-                """
-                #1 精简信息 or 精确信息
-                """
-                if not self.exact:
-                    service = value["name"]
-                    if port in Well_known_ports.keys():
-                        service_list.append(Well_known_ports[port])
-                        continue
-                    if service.find("ssl/http") != -1:
-                        service = "HTTPS"
-                    elif service.find("http-") != -1:
-                        service = "HTTP"
-                    else:
-                        for key, value in Well_known_ports.items():
-                            if service.lower() == value.lower():
-                                service = value
-                                break
-
+                
                 else:
                     service = (value["name"] + " " + value["product"] + " " +
                                value["version"])

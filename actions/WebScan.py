@@ -105,40 +105,7 @@ class WebScan:
             return self.env_data.web_fingerprint
         return []
 
-    def whatweb(self, path, level=1):
-        
-        base_command = f"whatweb -a {level} --colour=never "
-        command = base_command + path
 
-        if self.target_info.pivot:
-            command = "proxychains " + command
-        """
-        创建临时文件存放json结果
-        """
-        temp = tempfile.NamedTemporaryFile(suffix=".json")
-        command = command + f" --log-json={temp.name}"
-
-        status, result = UTIL.exec_shell_command(command)
-        loc = result.find("200 OK")
-        if loc != -1:
-            scan_info = result[loc - 1 :]
-            if scan_info:
-                filtered_info = self.filtered_info(scan_info)
-                if len(filtered_info) > self.max_info_length:
-                    self.max_info_length = len(filtered_info)
-                    self.info = scan_info
-                    self.fliter_info = filtered_info
-
-                    with open(temp.name, "r", encoding="utf-8") as f:  # *********
-                        json_info_ = json.loads(f.read())
-                        json_info = ""
-                        for info in json_info_:
-                            if info["http_status"] != 200:
-                                continue
-                            json_info = info
-                        self.json_info = [json_info]
-                    # print(self.info)
-                    temp.close()
 
     def web_scan(self, port="80", is_https=False, level=1):
         logging.info(f"Start scanning webfingerprint...")

@@ -1,12 +1,3 @@
-# from zhipuai import ZhipuAI
-# client = ZhipuAI(api_key="e652ee9ba45d2ec6c26ef5c6ec0f43d2.OXgFf2k07fa3qp3V") # 请填写您自己的APIKey
-# response = client.chat.completions.create(
-# model="glm-4",  # 填写需要调用的模型名称
-# messages=[
-#     {"role": "user", "content": "请介绍一下你自己"},
-# ],
-# )
-# print(response.choices[0].message)
 
 from rich.pretty import pprint
 import os
