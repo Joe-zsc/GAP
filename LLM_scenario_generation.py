@@ -43,7 +43,14 @@ def generate_token(apikey: str, exp_seconds: int):
 
 if __name__ == "__main__":
     vul = "CVE-2023-32315"
-    api_key = "xxx" 
+    api_key = "" 
+    llm = ChatOpenAI(
+        temperature=0.96,
+        model="glm-4",
+        openai_api_key=api_key,
+        openai_api_base="https://open.bigmodel.cn/api/paas/v4",
+    )
+    
     file_prefix = f"{vul}-{UTIL.current_time}"
     
 
@@ -63,12 +70,7 @@ if __name__ == "__main__":
 
     del example_env_data["web_fingerprint_component"]
 
-    llm = ChatOpenAI(
-        temperature=0.96,
-        model="glm-4",
-        openai_api_key=api_key,
-        openai_api_base="https://open.bigmodel.cn/api/paas/v4",
-    )
+    
 
     prompt = ChatPromptTemplate(
         messages=[
@@ -101,7 +103,7 @@ if __name__ == "__main__":
             json_data.append(data)
 
     
-    
+    # 打印聊天结果。
     # pprint(result)
     result_file = open(generated_scenarios_path /f"{file_prefix}-{len(json_data)}.md", "w")
     result_file.write(f"# {vul} \n")

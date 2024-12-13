@@ -1,1 +1,10 @@
 /Meta_Algos/__pycache__
+/.vscode
+/Config/__pycache__
+/actions/__pycache__
+/NLP_Module/__pycache__
+/RL_Policy/__pycache__
+/log
+/running_record
+/NLP_Module/Embedding_models/**
+!/NLP_Module/Embedding_models/readme.md

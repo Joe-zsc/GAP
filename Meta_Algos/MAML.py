@@ -160,7 +160,8 @@ class MAML(Agent):
         Train_metric = EasyDict({"signal": Metric.Finished})
         self.task_num_episodes = 0
         self.eval_rewards = 0
-
+        self.first_hit_step = [-1] * len(task_list)
+        self.first_hit_exp_coverage = [-1] * len(task_list)
         with tqdm(
                 range(self.config.train_eps),
                 position=0,

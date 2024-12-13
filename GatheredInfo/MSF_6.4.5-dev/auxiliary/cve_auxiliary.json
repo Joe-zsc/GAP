@@ -1,0 +1,3463 @@
+[
+    {
+        "name": "CVE-2015-0965",
+        "auxiliary": [
+            "auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss"
+        ]
+    },
+    {
+        "name": "CVE-2010-2156",
+        "auxiliary": [
+            "auxiliary/dos/dhcp/isc_dhcpd_clientid"
+        ]
+    },
+    {
+        "name": "CVE-2019-15949",
+        "auxiliary": [
+            "auxiliary/scanner/http/nagios_xi_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2023-20273",
+        "auxiliary": [
+            "auxiliary/admin/http/cisco_ios_xe_os_exec_cve_2023_20273"
+        ]
+    },
+    {
+        "name": "CVE-2014-9195",
+        "auxiliary": [
+            "auxiliary/admin/scada/phoenix_command"
+        ]
+    },
+    {
+        "name": "CVE-2016-5810",
+        "auxiliary": [
+            "auxiliary/gather/advantech_webaccess_creds"
+        ]
+    },
+    {
+        "name": "CVE-2009-1122",
+        "auxiliary": [
+            "auxiliary/scanner/http/dir_webdav_unicode_bypass",
+            "auxiliary/scanner/http/ms09_020_webdav_unicode_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2016-5676",
+        "auxiliary": [
+            "auxiliary/admin/http/nuuo_nvrmini_reset"
+        ]
+    },
+    {
+        "name": "CVE-2015-1635",
+        "auxiliary": [
+            "auxiliary/dos/http/ms15_034_ulonglongadd",
+            "auxiliary/scanner/http/ms15_034_http_sys_memory_dump"
+        ]
+    },
+    {
+        "name": "CVE-2005-4797",
+        "auxiliary": [
+            "auxiliary/dos/solaris/lpd/cascade_delete"
+        ]
+    },
+    {
+        "name": "CVE-2020-11738",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_duplicator_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2016-6366",
+        "auxiliary": [
+            "auxiliary/admin/networking/cisco_asa_extrabacon"
+        ]
+    },
+    {
+        "name": "CVE-2014-6278",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_mod_cgi_bash_env"
+        ]
+    },
+    {
+        "name": "CVE-2017-13098",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2018-5955",
+        "auxiliary": [
+            "auxiliary/admin/http/gitstack_rest"
+        ]
+    },
+    {
+        "name": "CVE-2013-1391",
+        "auxiliary": [
+            "auxiliary/scanner/misc/dvr_config_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2003-0027",
+        "auxiliary": [
+            "auxiliary/admin/sunrpc/solaris_kcms_readfile"
+        ]
+    },
+    {
+        "name": "CVE-2016-2055",
+        "auxiliary": [
+            "auxiliary/gather/xymon_info"
+        ]
+    },
+    {
+        "name": "CVE-2015-0235",
+        "auxiliary": [
+            "auxiliary/scanner/http/wordpress_ghost_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2018-14847",
+        "auxiliary": [
+            "auxiliary/gather/mikrotik_winbox_fileread"
+        ]
+    },
+    {
+        "name": "CVE-2011-0654",
+        "auxiliary": [
+            "auxiliary/dos/windows/smb/ms11_019_electbowser"
+        ]
+    },
+    {
+        "name": "CVE-2019-3799",
+        "auxiliary": [
+            "auxiliary/scanner/http/springcloud_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2020-1472",
+        "auxiliary": [
+            "auxiliary/admin/dcerpc/cve_2020_1472_zerologon"
+        ]
+    },
+    {
+        "name": "CVE-2013-0333",
+        "auxiliary": [
+            "auxiliary/scanner/http/rails_json_yaml_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2012-4957",
+        "auxiliary": [
+            "auxiliary/scanner/http/novell_file_reporter_srs_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2020-6287",
+        "auxiliary": [
+            "auxiliary/admin/sap/cve_2020_6287_ws_add_user"
+        ]
+    },
+    {
+        "name": "CVE-2007-3389",
+        "auxiliary": [
+            "auxiliary/dos/wireshark/chunked"
+        ]
+    },
+    {
+        "name": "CVE-2023-27524",
+        "auxiliary": [
+            "auxiliary/gather/apache_superset_cookie_sig_priv_esc"
+        ]
+    },
+    {
+        "name": "CVE-2009-1535",
+        "auxiliary": [
+            "auxiliary/scanner/http/dir_webdav_unicode_bypass",
+            "auxiliary/scanner/http/ms09_020_webdav_unicode_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2014-6038",
+        "auxiliary": [
+            "auxiliary/gather/eventlog_cred_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2010-0219",
+        "auxiliary": [
+            "auxiliary/scanner/http/axis_login"
+        ]
+    },
+    {
+        "name": "CVE-2016-9361",
+        "auxiliary": [
+            "auxiliary/admin/scada/moxa_credentials_recovery",
+            "auxiliary/scanner/scada/moxa_discover"
+        ]
+    },
+    {
+        "name": "CVE-2010-0904",
+        "auxiliary": [
+            "auxiliary/admin/oracle/osb_execqr3"
+        ]
+    },
+    {
+        "name": "CVE-2009-3733",
+        "auxiliary": [
+            "auxiliary/scanner/vmware/vmware_server_dir_trav"
+        ]
+    },
+    {
+        "name": "CVE-2016-0800",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/ssl_version"
+        ]
+    },
+    {
+        "name": "CVE-2015-7602",
+        "auxiliary": [
+            "auxiliary/scanner/ftp/bison_ftp_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2017-0148",
+        "auxiliary": [
+            "auxiliary/scanner/smb/smb_ms17_010"
+        ]
+    },
+    {
+        "name": "CVE-2015-3035",
+        "auxiliary": [
+            "auxiliary/gather/tplink_archer_c7_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2012-2983",
+        "auxiliary": [
+            "auxiliary/admin/webmin/edit_html_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2023-5612",
+        "auxiliary": [
+            "auxiliary/gather/gitlab_tags_rss_feed_email_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-1999-0651",
+        "auxiliary": [
+            "auxiliary/scanner/rservices/rexec_login",
+            "auxiliary/scanner/rservices/rlogin_login",
+            "auxiliary/scanner/rservices/rsh_login"
+        ]
+    },
+    {
+        "name": "CVE-2020-10923",
+        "auxiliary": [
+            "auxiliary/admin/http/netgear_r6700_pass_reset"
+        ]
+    },
+    {
+        "name": "CVE-2016-10175",
+        "auxiliary": [
+            "auxiliary/admin/http/netgear_wnr2000_pass_recovery"
+        ]
+    },
+    {
+        "name": "CVE-2017-5689",
+        "auxiliary": [
+            "auxiliary/scanner/http/intel_amt_digest_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2020-11651",
+        "auxiliary": [
+            "auxiliary/gather/saltstack_salt_root_key"
+        ]
+    },
+    {
+        "name": "CVE-2014-8499",
+        "auxiliary": [
+            "auxiliary/admin/http/manageengine_pmp_privesc"
+        ]
+    },
+    {
+        "name": "CVE-2017-16651",
+        "auxiliary": [
+            "auxiliary/gather/roundcube_auth_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2019-10692",
+        "auxiliary": [
+            "auxiliary/admin/http/wp_google_maps_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2015-0975",
+        "auxiliary": [
+            "auxiliary/gather/opennms_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2017-7922",
+        "auxiliary": [
+            "auxiliary/scanner/snmp/epmp1000_snmp_loot"
+        ]
+    },
+    {
+        "name": "CVE-2014-8270",
+        "auxiliary": [
+            "auxiliary/scanner/http/bmc_trackit_passwd_reset"
+        ]
+    },
+    {
+        "name": "CVE-2000-0945",
+        "auxiliary": [
+            "auxiliary/scanner/http/cisco_device_manager"
+        ]
+    },
+    {
+        "name": "CVE-2011-1774",
+        "auxiliary": [
+            "auxiliary/server/webkit_xslt_dropper"
+        ]
+    },
+    {
+        "name": "CVE-2009-0255",
+        "auxiliary": [
+            "auxiliary/admin/http/typo3_sa_2009_001"
+        ]
+    },
+    {
+        "name": "CVE-2020-16138",
+        "auxiliary": [
+            "auxiliary/dos/cisco/cisco_7937g_dos"
+        ]
+    },
+    {
+        "name": "CVE-2009-3563",
+        "auxiliary": [
+            "auxiliary/dos/ntp/ntpd_reserved_dos"
+        ]
+    },
+    {
+        "name": "CVE-2017-17382",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2017-5262",
+        "auxiliary": [
+            "auxiliary/scanner/snmp/cnpilot_r_snmp_loot"
+        ]
+    },
+    {
+        "name": "CVE-2011-5035",
+        "auxiliary": [
+            "auxiliary/dos/http/hashcollision_dos"
+        ]
+    },
+    {
+        "name": "CVE-2023-26360",
+        "auxiliary": [
+            "auxiliary/gather/adobe_coldfusion_fileread_cve_2023_26360"
+        ]
+    },
+    {
+        "name": "CVE-2015-0922",
+        "auxiliary": [
+            "auxiliary/gather/mcafee_epo_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2015-5477",
+        "auxiliary": [
+            "auxiliary/dos/dns/bind_tkey"
+        ]
+    },
+    {
+        "name": "CVE-2008-3979",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/droptable_trigger"
+        ]
+    },
+    {
+        "name": "CVE-2014-4671",
+        "auxiliary": [
+            "auxiliary/gather/flash_rosetta_jsonp_url_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2004-0331",
+        "auxiliary": [
+            "auxiliary/dos/http/dell_openmanage_post"
+        ]
+    },
+    {
+        "name": "CVE-2009-2936",
+        "auxiliary": [
+            "auxiliary/scanner/varnish/varnish_cli_file_read",
+            "auxiliary/scanner/varnish/varnish_cli_login"
+        ]
+    },
+    {
+        "name": "CVE-2015-2562",
+        "auxiliary": [
+            "auxiliary/scanner/http/joomla_ecommercewd_sqli_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2017-17428",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2011-1900",
+        "auxiliary": [
+            "auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2006-0900",
+        "auxiliary": [
+            "auxiliary/dos/freebsd/nfsd/nfsd_mount"
+        ]
+    },
+    {
+        "name": "CVE-2023-23752",
+        "auxiliary": [
+            "auxiliary/scanner/http/joomla_api_improper_access_checks"
+        ]
+    },
+    {
+        "name": "CVE-1999-0526",
+        "auxiliary": [
+            "auxiliary/scanner/x11/open_x11"
+        ]
+    },
+    {
+        "name": "CVE-2013-4124",
+        "auxiliary": [
+            "auxiliary/dos/samba/read_nttrans_ea_list"
+        ]
+    },
+    {
+        "name": "CVE-2020-5791",
+        "auxiliary": [
+            "auxiliary/scanner/http/nagios_xi_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2008-2031",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/vicftps50_list"
+        ]
+    },
+    {
+        "name": "CVE-2012-0002",
+        "auxiliary": [
+            "auxiliary/scanner/rdp/ms12_020_check",
+            "auxiliary/dos/windows/rdp/ms12_020_maxchannelids"
+        ]
+    },
+    {
+        "name": "CVE-2020-16139",
+        "auxiliary": [
+            "auxiliary/dos/cisco/cisco_7937g_dos_reboot"
+        ]
+    },
+    {
+        "name": "CVE-2006-0988",
+        "auxiliary": [
+            "auxiliary/scanner/dns/dns_amp"
+        ]
+    },
+    {
+        "name": "CVE-2013-3977",
+        "auxiliary": [
+            "auxiliary/gather/ibm_sametime_room_brute"
+        ]
+    },
+    {
+        "name": "CVE-2015-2996",
+        "auxiliary": [
+            "auxiliary/admin/http/sysaid_file_download",
+            "auxiliary/admin/http/sysaid_sql_creds"
+        ]
+    },
+    {
+        "name": "CVE-2017-16806",
+        "auxiliary": [
+            "auxiliary/admin/http/ulterius_file_download"
+        ]
+    },
+    {
+        "name": "CVE-2016-2203",
+        "auxiliary": [
+            "auxiliary/scanner/http/symantec_brightmail_ldapcreds"
+        ]
+    },
+    {
+        "name": "CVE-2023-26876",
+        "auxiliary": [
+            "auxiliary/gather/piwigo_cve_2023_26876"
+        ]
+    },
+    {
+        "name": "CVE-2013-4450",
+        "auxiliary": [
+            "auxiliary/dos/http/nodejs_pipelining"
+        ]
+    },
+    {
+        "name": "CVE-2011-0063",
+        "auxiliary": [
+            "auxiliary/scanner/http/majordomo2_directory_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2005-4832",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/dbms_cdc_subscribe_activate_subscription"
+        ]
+    },
+    {
+        "name": "CVE-2017-8835",
+        "auxiliary": [
+            "auxiliary/gather/peplink_bauth_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2009-1730",
+        "auxiliary": [
+            "auxiliary/scanner/tftp/netdecision_tftp"
+        ]
+    },
+    {
+        "name": "CVE-2002-1214",
+        "auxiliary": [
+            "auxiliary/dos/pptp/ms02_063_pptp_dos"
+        ]
+    },
+    {
+        "name": "CVE-2018-14058",
+        "auxiliary": [
+            "auxiliary/gather/pimcore_creds_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2018-17179",
+        "auxiliary": [
+            "auxiliary/sqli/openemr/openemr_sqli_dump"
+        ]
+    },
+    {
+        "name": "CVE-2010-2731",
+        "auxiliary": [
+            "auxiliary/admin/http/iis_auth_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2012-4958",
+        "auxiliary": [
+            "auxiliary/scanner/http/novell_file_reporter_fsfui_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2017-5930",
+        "auxiliary": [
+            "auxiliary/admin/http/pfadmin_set_protected_alias"
+        ]
+    },
+    {
+        "name": "CVE-2002-1864",
+        "auxiliary": [
+            "auxiliary/scanner/http/simple_webserver_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2019-17662",
+        "auxiliary": [
+            "auxiliary/scanner/http/thinvnc_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2023-28432",
+        "auxiliary": [
+            "auxiliary/gather/minio_bootstrap_verify_info_disc"
+        ]
+    },
+    {
+        "name": "CVE-2010-2415",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/dbms_cdc_publish3"
+        ]
+    },
+    {
+        "name": "CVE-2023-23488",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_paid_membership_pro_code_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2018-11409",
+        "auxiliary": [
+            "auxiliary/gather/splunk_raw_server_info"
+        ]
+    },
+    {
+        "name": "CVE-2008-3466",
+        "auxiliary": [
+            "auxiliary/admin/ms/ms08_059_his2006"
+        ]
+    },
+    {
+        "name": "CVE-2013-7331",
+        "auxiliary": [
+            "auxiliary/gather/ms14_052_xmldom"
+        ]
+    },
+    {
+        "name": "CVE-2009-1977",
+        "auxiliary": [
+            "auxiliary/admin/oracle/osb_execqr2"
+        ]
+    },
+    {
+        "name": "CVE-2017-0147",
+        "auxiliary": [
+            "auxiliary/admin/smb/ms17_010_command",
+            "auxiliary/scanner/smb/smb_ms17_010"
+        ]
+    },
+    {
+        "name": "CVE-2014-5383",
+        "auxiliary": [
+            "auxiliary/gather/alienvault_newpolicyform_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2013-3621",
+        "auxiliary": [
+            "auxiliary/scanner/http/smt_ipmi_cgi_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2014-0763",
+        "auxiliary": [
+            "auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2008-5081",
+        "auxiliary": [
+            "auxiliary/dos/mdns/avahi_portzero"
+        ]
+    },
+    {
+        "name": "CVE-2018-17934",
+        "auxiliary": [
+            "auxiliary/gather/nuuo_cms_file_download"
+        ]
+    },
+    {
+        "name": "CVE-2017-5521",
+        "auxiliary": [
+            "auxiliary/gather/netgear_password_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2014-3566",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/ssl_version"
+        ]
+    },
+    {
+        "name": "CVE-2020-11532",
+        "auxiliary": [
+            "auxiliary/gather/manageengine_adaudit_plus_xnode_enum",
+            "auxiliary/gather/manageengine_datasecurity_plus_xnode_enum"
+        ]
+    },
+    {
+        "name": "CVE-2011-3200",
+        "auxiliary": [
+            "auxiliary/dos/syslog/rsyslog_long_tag"
+        ]
+    },
+    {
+        "name": "CVE-2020-5410",
+        "auxiliary": [
+            "auxiliary/scanner/http/springcloud_directory_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2005-0771",
+        "auxiliary": [
+            "auxiliary/admin/backupexec/registry"
+        ]
+    },
+    {
+        "name": "CVE-2018-15727",
+        "auxiliary": [
+            "auxiliary/admin/http/grafana_auth_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2021-42258",
+        "auxiliary": [
+            "auxiliary/gather/billquick_txtid_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2002-0422",
+        "auxiliary": [
+            "auxiliary/scanner/http/webdav_internal_ip",
+            "auxiliary/scanner/http/iis_internal_ip"
+        ]
+    },
+    {
+        "name": "CVE-2014-5208",
+        "auxiliary": [
+            "auxiliary/admin/scada/yokogawa_bkbcopyd_client"
+        ]
+    },
+    {
+        "name": "CVE-1999-0516",
+        "auxiliary": [
+            "auxiliary/scanner/snmp/snmp_login",
+            "auxiliary/scanner/snmp/snmp_enum"
+        ]
+    },
+    {
+        "name": "CVE-2008-0926",
+        "auxiliary": [
+            "auxiliary/admin/edirectory/edirectory_edirutil"
+        ]
+    },
+    {
+        "name": "CVE-2019-12477",
+        "auxiliary": [
+            "auxiliary/admin/http/supra_smart_cloud_tv_rfi"
+        ]
+    },
+    {
+        "name": "CVE-2009-3843",
+        "auxiliary": [
+            "auxiliary/scanner/http/tomcat_mgr_login"
+        ]
+    },
+    {
+        "name": "CVE-2014-3300",
+        "auxiliary": [
+            "auxiliary/voip/cisco_cucdm_call_forward",
+            "auxiliary/voip/cisco_cucdm_speed_dials"
+        ]
+    },
+    {
+        "name": "CVE-2013-1081",
+        "auxiliary": [
+            "auxiliary/scanner/http/novell_mdm_creds"
+        ]
+    },
+    {
+        "name": "CVE-2013-6117",
+        "auxiliary": [
+            "auxiliary/scanner/misc/dahua_dvr_auth_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2018-4993",
+        "auxiliary": [
+            "auxiliary/fileformat/badpdf"
+        ]
+    },
+    {
+        "name": "CVE-2016-6415",
+        "auxiliary": [
+            "auxiliary/scanner/ike/cisco_ike_benigncertain"
+        ]
+    },
+    {
+        "name": "CVE-2019-5418",
+        "auxiliary": [
+            "auxiliary/gather/rails_doubletap_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2014-6271",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_mod_cgi_bash_env",
+            "auxiliary/server/dhclient_bash_env"
+        ]
+    },
+    {
+        "name": "CVE-2014-7992",
+        "auxiliary": [
+            "auxiliary/scanner/dlsw/dlsw_leak_capture"
+        ]
+    },
+    {
+        "name": "CVE-2019-4061",
+        "auxiliary": [
+            "auxiliary/gather/ibm_bigfix_sites_packages_enum"
+        ]
+    },
+    {
+        "name": "CVE-2019-6447",
+        "auxiliary": [
+            "auxiliary/scanner/http/es_file_explorer_open_port"
+        ]
+    },
+    {
+        "name": "CVE-2018-6849",
+        "auxiliary": [
+            "auxiliary/gather/browser_lanipleak"
+        ]
+    },
+    {
+        "name": "CVE-2013-1625",
+        "auxiliary": [
+            "auxiliary/scanner/http/titan_ftp_admin_pwd"
+        ]
+    },
+    {
+        "name": "CVE-2011-4722",
+        "auxiliary": [
+            "auxiliary/scanner/tftp/ipswitch_whatsupgold_tftp"
+        ]
+    },
+    {
+        "name": "CVE-2012-4554",
+        "auxiliary": [
+            "auxiliary/gather/drupal_openid_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2015-6127",
+        "auxiliary": [
+            "auxiliary/server/ms15_134_mcl_leak"
+        ]
+    },
+    {
+        "name": "CVE-2020-11652",
+        "auxiliary": [
+            "auxiliary/gather/saltstack_salt_root_key"
+        ]
+    },
+    {
+        "name": "CVE-2009-1978",
+        "auxiliary": [
+            "auxiliary/admin/oracle/osb_execqr2"
+        ]
+    },
+    {
+        "name": "CVE-1999-0531",
+        "auxiliary": [
+            "auxiliary/scanner/smtp/smtp_enum"
+        ]
+    },
+    {
+        "name": "CVE-2013-0233",
+        "auxiliary": [
+            "auxiliary/admin/http/rails_devise_pass_reset"
+        ]
+    },
+    {
+        "name": "CVE-2011-0762",
+        "auxiliary": [
+            "auxiliary/dos/ftp/vsftpd_232"
+        ]
+    },
+    {
+        "name": "CVE-2011-1140",
+        "auxiliary": [
+            "auxiliary/dos/wireshark/cldap"
+        ]
+    },
+    {
+        "name": "CVE-2014-5266",
+        "auxiliary": [
+            "auxiliary/dos/http/wordpress_xmlrpc_dos"
+        ]
+    },
+    {
+        "name": "CVE-2017-12149",
+        "auxiliary": [
+            "auxiliary/scanner/http/jboss_vulnscan"
+        ]
+    },
+    {
+        "name": "CVE-2020-27615",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_loginizer_log_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2021-36942",
+        "auxiliary": [
+            "auxiliary/scanner/dcerpc/petitpotam"
+        ]
+    },
+    {
+        "name": "CVE-2010-4094",
+        "auxiliary": [
+            "auxiliary/scanner/http/tomcat_mgr_login"
+        ]
+    },
+    {
+        "name": "CVE-2015-7601",
+        "auxiliary": [
+            "auxiliary/scanner/ftp/pcman_ftp_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2000-0649",
+        "auxiliary": [
+            "auxiliary/scanner/http/iis_internal_ip"
+        ]
+    },
+    {
+        "name": "CVE-2006-2081",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/dbms_export_extension"
+        ]
+    },
+    {
+        "name": "CVE-2017-13099",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2018-8065",
+        "auxiliary": [
+            "auxiliary/dos/http/flexense_http_server_dos"
+        ]
+    },
+    {
+        "name": "CVE-2017-5982",
+        "auxiliary": [
+            "auxiliary/scanner/http/kodi_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2021-39327",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_bulletproofsecurity_backups"
+        ]
+    },
+    {
+        "name": "CVE-2007-6750",
+        "auxiliary": [
+            "auxiliary/dos/http/slowloris"
+        ]
+    },
+    {
+        "name": "CVE-2014-1812",
+        "auxiliary": [
+            "auxiliary/scanner/smb/smb_enum_gpp"
+        ]
+    },
+    {
+        "name": "CVE-2010-0926",
+        "auxiliary": [
+            "auxiliary/admin/smb/samba_symlink_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2021-22145",
+        "auxiliary": [
+            "auxiliary/scanner/http/elasticsearch_memory_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2013-4826",
+        "auxiliary": [
+            "auxiliary/scanner/http/hp_imc_som_file_download"
+        ]
+    },
+    {
+        "name": "CVE-2021-24946",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_modern_events_calendar_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2016-2296",
+        "auxiliary": [
+            "auxiliary/scanner/http/meteocontrol_weblog_extractadmin"
+        ]
+    },
+    {
+        "name": "CVE-2013-4614",
+        "auxiliary": [
+            "auxiliary/scanner/http/canon_wireless"
+        ]
+    },
+    {
+        "name": "CVE-2013-2143",
+        "auxiliary": [
+            "auxiliary/admin/http/katello_satellite_priv_esc"
+        ]
+    },
+    {
+        "name": "CVE-2019-8903",
+        "auxiliary": [
+            "auxiliary/scanner/http/totaljs_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2024-23897",
+        "auxiliary": [
+            "auxiliary/gather/jenkins_cli_ampersand_arbitrary_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2013-1899",
+        "auxiliary": [
+            "auxiliary/scanner/postgres/postgres_dbname_flag_injection"
+        ]
+    },
+    {
+        "name": "CVE-2013-3619",
+        "auxiliary": [
+            "auxiliary/scanner/http/smt_ipmi_static_cert_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2008-6082",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/titan626_site"
+        ]
+    },
+    {
+        "name": "CVE-2010-1899",
+        "auxiliary": [
+            "auxiliary/dos/windows/http/ms10_065_ii6_asp_dos"
+        ]
+    },
+    {
+        "name": "CVE-2020-9294",
+        "auxiliary": [
+            "auxiliary/scanner/http/fortimail_login_bypass_detection"
+        ]
+    },
+    {
+        "name": "CVE-2021-31166",
+        "auxiliary": [
+            "auxiliary/dos/windows/http/http_sys_accept_encoding_dos_cve_2021_31166"
+        ]
+    },
+    {
+        "name": "CVE-2021-31802",
+        "auxiliary": [
+            "auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce"
+        ]
+    },
+    {
+        "name": "CVE-2008-2439",
+        "auxiliary": [
+            "auxiliary/admin/officescan/tmlisten_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2008-3982",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/lt_compressworkspace"
+        ]
+    },
+    {
+        "name": "CVE-2003-0694",
+        "auxiliary": [
+            "auxiliary/dos/smtp/sendmail_prescan"
+        ]
+    },
+    {
+        "name": "CVE-2012-2626",
+        "auxiliary": [
+            "auxiliary/admin/http/scrutinizer_add_user"
+        ]
+    },
+    {
+        "name": "CVE-2006-6010",
+        "auxiliary": [
+            "auxiliary/scanner/sap/sap_soap_rfc_system_info"
+        ]
+    },
+    {
+        "name": "CVE-2014-6593",
+        "auxiliary": [
+            "auxiliary/server/jsse_skiptls_mitm_proxy"
+        ]
+    },
+    {
+        "name": "CVE-2007-6509",
+        "auxiliary": [
+            "auxiliary/dos/windows/appian/appian_bpm"
+        ]
+    },
+    {
+        "name": "CVE-2010-0557",
+        "auxiliary": [
+            "auxiliary/scanner/http/tomcat_mgr_login"
+        ]
+    },
+    {
+        "name": "CVE-2012-2686",
+        "auxiliary": [
+            "auxiliary/dos/ssl/openssl_aesni"
+        ]
+    },
+    {
+        "name": "CVE-2017-3881",
+        "auxiliary": [
+            "auxiliary/dos/cisco/ios_telnet_rocem"
+        ]
+    },
+    {
+        "name": "CVE-2008-1447",
+        "auxiliary": [
+            "auxiliary/spoof/dns/bailiwicked_domain",
+            "auxiliary/spoof/dns/bailiwicked_host"
+        ]
+    },
+    {
+        "name": "CVE-2019-1619",
+        "auxiliary": [
+            "auxiliary/admin/networking/cisco_dcnm_download"
+        ]
+    },
+    {
+        "name": "CVE-2011-3389",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/ssl_version"
+        ]
+    },
+    {
+        "name": "CVE-2010-2333",
+        "auxiliary": [
+            "auxiliary/scanner/http/litespeed_source_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2014-9016",
+        "auxiliary": [
+            "auxiliary/dos/http/wordpress_long_password_dos"
+        ]
+    },
+    {
+        "name": "CVE-2016-10073",
+        "auxiliary": [
+            "auxiliary/scanner/http/host_header_injection"
+        ]
+    },
+    {
+        "name": "CVE-2011-0923",
+        "auxiliary": [
+            "auxiliary/admin/hp/hp_data_protector_cmd"
+        ]
+    },
+    {
+        "name": "CVE-2015-1155",
+        "auxiliary": [
+            "auxiliary/gather/safari_file_url_navigation"
+        ]
+    },
+    {
+        "name": "CVE-2019-0708",
+        "auxiliary": [
+            "auxiliary/scanner/rdp/cve_2019_0708_bluekeep"
+        ]
+    },
+    {
+        "name": "CVE-2008-5666",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/winftp230_nlst"
+        ]
+    },
+    {
+        "name": "CVE-2017-7615",
+        "auxiliary": [
+            "auxiliary/admin/http/mantisbt_password_reset"
+        ]
+    },
+    {
+        "name": "CVE-2008-2938",
+        "auxiliary": [
+            "auxiliary/admin/http/tomcat_utf8_traversal",
+            "auxiliary/admin/http/trendmicro_dlp_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2015-0921",
+        "auxiliary": [
+            "auxiliary/gather/mcafee_epo_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2023-22515",
+        "auxiliary": [
+            "auxiliary/admin/http/atlassian_confluence_auth_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2019-11510",
+        "auxiliary": [
+            "auxiliary/gather/pulse_secure_file_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2015-7871",
+        "auxiliary": [
+            "auxiliary/scanner/ntp/ntp_nak_to_the_future"
+        ]
+    },
+    {
+        "name": "CVE-2013-4164",
+        "auxiliary": [
+            "auxiliary/dos/http/rails_json_float_dos"
+        ]
+    },
+    {
+        "name": "CVE-2010-4804",
+        "auxiliary": [
+            "auxiliary/gather/android_htmlfileprovider"
+        ]
+    },
+    {
+        "name": "CVE-2010-2227",
+        "auxiliary": [
+            "auxiliary/dos/http/apache_tomcat_transfer_encoding",
+            "auxiliary/dos/http/slowloris"
+        ]
+    },
+    {
+        "name": "CVE-2017-5260",
+        "auxiliary": [
+            "auxiliary/scanner/http/cnpilot_r_web_login_loot"
+        ]
+    },
+    {
+        "name": "CVE-2016-6897",
+        "auxiliary": [
+            "auxiliary/dos/http/wordpress_directory_traversal_dos"
+        ]
+    },
+    {
+        "name": "CVE-2019-1653",
+        "auxiliary": [
+            "auxiliary/gather/cisco_rv320_config"
+        ]
+    },
+    {
+        "name": "CVE-1999-0506",
+        "auxiliary": [
+            "auxiliary/scanner/mssql/mssql_login",
+            "auxiliary/scanner/smb/smb_login",
+            "auxiliary/scanner/vnc/vnc_login"
+        ]
+    },
+    {
+        "name": "CVE-2013-5880",
+        "auxiliary": [
+            "auxiliary/scanner/http/oracle_demantra_file_retrieval",
+            "auxiliary/scanner/http/oracle_demantra_database_credentials_leak"
+        ]
+    },
+    {
+        "name": "CVE-2015-7603",
+        "auxiliary": [
+            "auxiliary/scanner/ftp/konica_ftp_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2015-0964",
+        "auxiliary": [
+            "auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss"
+        ]
+    },
+    {
+        "name": "CVE-2020-1938",
+        "auxiliary": [
+            "auxiliary/admin/http/tomcat_ghostcat"
+        ]
+    },
+    {
+        "name": "CVE-2009-4189",
+        "auxiliary": [
+            "auxiliary/scanner/http/tomcat_mgr_login"
+        ]
+    },
+    {
+        "name": "CVE-2017-5254",
+        "auxiliary": [
+            "auxiliary/scanner/http/epmp1000_reset_pass"
+        ]
+    },
+    {
+        "name": "CVE-2014-0644",
+        "auxiliary": [
+            "auxiliary/gather/emc_cta_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2008-1562",
+        "auxiliary": [
+            "auxiliary/dos/wireshark/ldap"
+        ]
+    },
+    {
+        "name": "CVE-2014-5377",
+        "auxiliary": [
+            "auxiliary/scanner/http/manageengine_deviceexpert_user_creds"
+        ]
+    },
+    {
+        "name": "CVE-2016-3321",
+        "auxiliary": [
+            "auxiliary/gather/ie_sandbox_findfiles"
+        ]
+    },
+    {
+        "name": "CVE-2008-2157",
+        "auxiliary": [
+            "auxiliary/admin/emc/alphastor_devicemanager_exec",
+            "auxiliary/admin/emc/alphastor_librarymanager_exec"
+        ]
+    },
+    {
+        "name": "CVE-1999-0667",
+        "auxiliary": [
+            "auxiliary/spoof/arp/arp_poisoning"
+        ]
+    },
+    {
+        "name": "CVE-2023-4966",
+        "auxiliary": [
+            "auxiliary/scanner/http/citrix_bleed_cve_2023_4966"
+        ]
+    },
+    {
+        "name": "CVE-2007-6507",
+        "auxiliary": [
+            "auxiliary/admin/serverprotect/file"
+        ]
+    },
+    {
+        "name": "CVE-2020-12720",
+        "auxiliary": [
+            "auxiliary/gather/vbulletin_getindexablecontent_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2009-0815",
+        "auxiliary": [
+            "auxiliary/admin/http/typo3_sa_2009_002"
+        ]
+    },
+    {
+        "name": "CVE-2010-0017",
+        "auxiliary": [
+            "auxiliary/dos/windows/smb/ms10_006_negotiate_response_loop"
+        ]
+    },
+    {
+        "name": "CVE-2006-2369",
+        "auxiliary": [
+            "auxiliary/admin/vnc/realvnc_41_bypass",
+            "auxiliary/scanner/vnc/vnc_none_auth"
+        ]
+    },
+    {
+        "name": "CVE-2018-11646",
+        "auxiliary": [
+            "auxiliary/dos/http/webkitplus"
+        ]
+    },
+    {
+        "name": "CVE-2009-4655",
+        "auxiliary": [
+            "auxiliary/admin/edirectory/edirectory_dhost_cookie"
+        ]
+    },
+    {
+        "name": "CVE-2001-0537",
+        "auxiliary": [
+            "auxiliary/scanner/http/cisco_ios_auth_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2019-5645",
+        "auxiliary": [
+            "auxiliary/dos/http/metasploit_httphandler_dos"
+        ]
+    },
+    {
+        "name": "CVE-2012-4347",
+        "auxiliary": [
+            "auxiliary/scanner/http/symantec_brightmail_logfile"
+        ]
+    },
+    {
+        "name": "CVE-2013-4782",
+        "auxiliary": [
+            "auxiliary/scanner/ipmi/ipmi_cipher_zero"
+        ]
+    },
+    {
+        "name": "CVE-2016-3213",
+        "auxiliary": [
+            "auxiliary/server/netbios_spoof_nat"
+        ]
+    },
+    {
+        "name": "CVE-2005-3589",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/filezilla_admin_user"
+        ]
+    },
+    {
+        "name": "CVE-2013-3522",
+        "auxiliary": [
+            "auxiliary/gather/vbulletin_vote_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2006-3942",
+        "auxiliary": [
+            "auxiliary/dos/windows/smb/ms06_035_mailslot",
+            "auxiliary/dos/windows/smb/ms06_063_trans"
+        ]
+    },
+    {
+        "name": "CVE-2020-5792",
+        "auxiliary": [
+            "auxiliary/scanner/http/nagios_xi_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2010-2550",
+        "auxiliary": [
+            "auxiliary/dos/windows/smb/ms10_054_queryfs_pool_overflow"
+        ]
+    },
+    {
+        "name": "CVE-2019-7195",
+        "auxiliary": [
+            "auxiliary/gather/qnap_lfi"
+        ]
+    },
+    {
+        "name": "CVE-2005-3498",
+        "auxiliary": [
+            "auxiliary/scanner/http/options"
+        ]
+    },
+    {
+        "name": "CVE-2008-3996",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/dbms_cdc_ipublish"
+        ]
+    },
+    {
+        "name": "CVE-2017-12542",
+        "auxiliary": [
+            "auxiliary/admin/hp/hp_ilo_create_admin_account"
+        ]
+    },
+    {
+        "name": "CVE-2013-2566",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/ssl_version"
+        ]
+    },
+    {
+        "name": "CVE-2018-10933",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/libssh_auth_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2022-0739",
+        "auxiliary": [
+            "auxiliary/gather/wp_bookingpress_category_services_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2020-5724",
+        "auxiliary": [
+            "auxiliary/gather/grandstream_ucm62xx_sql_account_guess"
+        ]
+    },
+    {
+        "name": "CVE-2015-2998",
+        "auxiliary": [
+            "auxiliary/admin/http/sysaid_sql_creds"
+        ]
+    },
+    {
+        "name": "CVE-2017-7921",
+        "auxiliary": [
+            "auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921",
+            "auxiliary/gather/hikvision_info_disclosure_cve_2017_7921"
+        ]
+    },
+    {
+        "name": "CVE-2017-9798",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_optionsbleed"
+        ]
+    },
+    {
+        "name": "CVE-2017-5146",
+        "auxiliary": [
+            "auxiliary/scanner/http/gavazzi_em_login_loot"
+        ]
+    },
+    {
+        "name": "CVE-2023-49103",
+        "auxiliary": [
+            "auxiliary/gather/owncloud_phpinfo_reader"
+        ]
+    },
+    {
+        "name": "CVE-2009-1386",
+        "auxiliary": [
+            "auxiliary/dos/ssl/dtls_changecipherspec"
+        ]
+    },
+    {
+        "name": "CVE-2022-26923",
+        "auxiliary": [
+            "auxiliary/admin/dcerpc/cve_2022_26923_certifried"
+        ]
+    },
+    {
+        "name": "CVE-2019-15975",
+        "auxiliary": [
+            "auxiliary/admin/networking/cisco_dcnm_auth_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2010-2861",
+        "auxiliary": [
+            "auxiliary/scanner/http/coldfusion_locale_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2017-6510",
+        "auxiliary": [
+            "auxiliary/scanner/ftp/easy_file_sharing_ftp"
+        ]
+    },
+    {
+        "name": "CVE-2013-5795",
+        "auxiliary": [
+            "auxiliary/scanner/http/oracle_demantra_database_credentials_leak"
+        ]
+    },
+    {
+        "name": "CVE-2020-10924",
+        "auxiliary": [
+            "auxiliary/admin/http/netgear_r6700_pass_reset"
+        ]
+    },
+    {
+        "name": "CVE-2020-13699",
+        "auxiliary": [
+            "auxiliary/server/teamviewer_uri_smb_redirect"
+        ]
+    },
+    {
+        "name": "CVE-2015-2856",
+        "auxiliary": [
+            "auxiliary/scanner/http/accellion_fta_statecode_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2019-20361",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_email_sub_news_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2018-16158",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/eaton_xpert_backdoor"
+        ]
+    },
+    {
+        "name": "CVE-2013-3986",
+        "auxiliary": [
+            "auxiliary/dos/misc/ibm_sametime_webplayer_dos"
+        ]
+    },
+    {
+        "name": "CVE-2010-0866",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/jvm_os_code_10g",
+            "auxiliary/sqli/oracle/jvm_os_code_11g"
+        ]
+    },
+    {
+        "name": "CVE-2018-2393",
+        "auxiliary": [
+            "auxiliary/admin/sap/sap_igs_xmlchart_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2012-1465",
+        "auxiliary": [
+            "auxiliary/scanner/http/netdecision_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2008-3995",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/dbms_cdc_publish"
+        ]
+    },
+    {
+        "name": "CVE-2010-0425",
+        "auxiliary": [
+            "auxiliary/dos/http/apache_mod_isapi"
+        ]
+    },
+    {
+        "name": "CVE-2019-7194",
+        "auxiliary": [
+            "auxiliary/gather/qnap_lfi"
+        ]
+    },
+    {
+        "name": "CVE-2008-0244",
+        "auxiliary": [
+            "auxiliary/admin/maxdb/maxdb_cons_exec"
+        ]
+    },
+    {
+        "name": "CVE-2021-31807",
+        "auxiliary": [
+            "auxiliary/dos/http/squid_range_dos"
+        ]
+    },
+    {
+        "name": "CVE-2010-1587",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_activemq_source_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2011-5034",
+        "auxiliary": [
+            "auxiliary/dos/http/hashcollision_dos"
+        ]
+    },
+    {
+        "name": "CVE-2009-3103",
+        "auxiliary": [
+            "auxiliary/dos/windows/smb/ms09_050_smb2_negotiate_pidhigh",
+            "auxiliary/dos/windows/smb/ms09_050_smb2_session_logoff"
+        ]
+    },
+    {
+        "name": "CVE-2019-19494",
+        "auxiliary": [
+            "auxiliary/dos/http/cable_haunt_websocket_dos"
+        ]
+    },
+    {
+        "name": "CVE-2009-0836",
+        "auxiliary": [
+            "auxiliary/pdf/foxit/authbypass"
+        ]
+    },
+    {
+        "name": "CVE-2008-3984",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/lt_removeworkspace"
+        ]
+    },
+    {
+        "name": "CVE-2008-3273",
+        "auxiliary": [
+            "auxiliary/scanner/http/jboss_status",
+            "auxiliary/scanner/http/jboss_vulnscan"
+        ]
+    },
+    {
+        "name": "CVE-2013-4823",
+        "auxiliary": [
+            "auxiliary/scanner/http/hp_imc_bims_downloadservlet_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2020-16137",
+        "auxiliary": [
+            "auxiliary/admin/http/cisco_7937g_ssh_privesc"
+        ]
+    },
+    {
+        "name": "CVE-2019-0724",
+        "auxiliary": [
+            "auxiliary/scanner/http/exchange_web_server_pushsubscription"
+        ]
+    },
+    {
+        "name": "CVE-2011-0657",
+        "auxiliary": [
+            "auxiliary/dos/windows/llmnr/ms11_030_dnsapi"
+        ]
+    },
+    {
+        "name": "CVE-2014-6324",
+        "auxiliary": [
+            "auxiliary/admin/kerberos/ms14_068_kerberos_checksum"
+        ]
+    },
+    {
+        "name": "CVE-2008-3983",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/lt_mergeworkspace"
+        ]
+    },
+    {
+        "name": "CVE-2017-13872",
+        "auxiliary": [
+            "auxiliary/scanner/vnc/ard_root_pw"
+        ]
+    },
+    {
+        "name": "CVE-2019-16328",
+        "auxiliary": [
+            "auxiliary/scanner/http/rpyc_rce"
+        ]
+    },
+    {
+        "name": "CVE-2010-1429",
+        "auxiliary": [
+            "auxiliary/scanner/http/jboss_status",
+            "auxiliary/scanner/http/jboss_vulnscan"
+        ]
+    },
+    {
+        "name": "CVE-2008-5161",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/ssh_version"
+        ]
+    },
+    {
+        "name": "CVE-2009-0580",
+        "auxiliary": [
+            "auxiliary/scanner/http/tomcat_enum"
+        ]
+    },
+    {
+        "name": "CVE-2014-6041",
+        "auxiliary": [
+            "auxiliary/admin/android/google_play_store_uxss_xframe_rce",
+            "auxiliary/gather/android_stock_browser_uxss"
+        ]
+    },
+    {
+        "name": "CVE-2011-3368",
+        "auxiliary": [
+            "auxiliary/scanner/http/rewrite_proxy_bypass"
+        ]
+    },
+    {
+        "name": "CVE-1999-0508",
+        "auxiliary": [
+            "auxiliary/scanner/snmp/snmp_login",
+            "auxiliary/scanner/snmp/snmp_enum"
+        ]
+    },
+    {
+        "name": "CVE-2021-37343",
+        "auxiliary": [
+            "auxiliary/scanner/http/nagios_xi_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2016-6435",
+        "auxiliary": [
+            "auxiliary/scanner/http/cisco_firepower_download"
+        ]
+    },
+    {
+        "name": "CVE-2015-2997",
+        "auxiliary": [
+            "auxiliary/admin/http/sysaid_file_download"
+        ]
+    },
+    {
+        "name": "CVE-2019-9960",
+        "auxiliary": [
+            "auxiliary/scanner/http/limesurvey_zip_traversals"
+        ]
+    },
+    {
+        "name": "CVE-2006-0987",
+        "auxiliary": [
+            "auxiliary/scanner/dns/dns_amp"
+        ]
+    },
+    {
+        "name": "CVE-2003-0190",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/ssh_enumusers"
+        ]
+    },
+    {
+        "name": "CVE-2017-1000385",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2006-0027",
+        "auxiliary": [
+            "auxiliary/dos/windows/smtp/ms06_019_exchange"
+        ]
+    },
+    {
+        "name": "CVE-2007-0977",
+        "auxiliary": [
+            "auxiliary/scanner/lotus/lotus_domino_hashes"
+        ]
+    },
+    {
+        "name": "CVE-2017-0144",
+        "auxiliary": [
+            "auxiliary/scanner/smb/smb_ms17_010"
+        ]
+    },
+    {
+        "name": "CVE-2017-7924",
+        "auxiliary": [
+            "auxiliary/dos/scada/allen_bradley_pccc"
+        ]
+    },
+    {
+        "name": "CVE-2006-5702",
+        "auxiliary": [
+            "auxiliary/admin/tikiwiki/tikidblib"
+        ]
+    },
+    {
+        "name": "CVE-2001-1013",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_userdir_enum"
+        ]
+    },
+    {
+        "name": "CVE-2014-0224",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/openssl_ccs"
+        ]
+    },
+    {
+        "name": "CVE-2020-35234",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_easy_wp_smtp"
+        ]
+    },
+    {
+        "name": "CVE-2014-7862",
+        "auxiliary": [
+            "auxiliary/admin/http/manage_engine_dc_create_admin"
+        ]
+    },
+    {
+        "name": "CVE-2017-1000028",
+        "auxiliary": [
+            "auxiliary/scanner/http/glassfish_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2013-4824",
+        "auxiliary": [
+            "auxiliary/admin/hp/hp_imc_som_create_account"
+        ]
+    },
+    {
+        "name": "CVE-2004-2691",
+        "auxiliary": [
+            "auxiliary/dos/http/3com_superstack_switch"
+        ]
+    },
+    {
+        "name": "CVE-2012-5081",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2008-4114",
+        "auxiliary": [
+            "auxiliary/dos/windows/smb/ms09_001_write"
+        ]
+    },
+    {
+        "name": "CVE-2012-4356",
+        "auxiliary": [
+            "auxiliary/scanner/scada/sielco_winlog_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2009-2335",
+        "auxiliary": [
+            "auxiliary/scanner/http/wordpress_login_enum"
+        ]
+    },
+    {
+        "name": "CVE-2020-4429",
+        "auxiliary": [
+            "auxiliary/admin/http/ibm_drm_download"
+        ]
+    },
+    {
+        "name": "CVE-2017-5162",
+        "auxiliary": [
+            "auxiliary/scanner/http/binom3_login_config_pass_dump"
+        ]
+    },
+    {
+        "name": "CVE-2018-15473",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/ssh_enumusers"
+        ]
+    },
+    {
+        "name": "CVE-2009-3591",
+        "auxiliary": [
+            "auxiliary/dos/misc/dopewars"
+        ]
+    },
+    {
+        "name": "CVE-2017-1129",
+        "auxiliary": [
+            "auxiliary/dos/http/ibm_lotus_notes"
+        ]
+    },
+    {
+        "name": "CVE-2011-0514",
+        "auxiliary": [
+            "auxiliary/dos/hp/data_protector_rds"
+        ]
+    },
+    {
+        "name": "CVE-2011-2474",
+        "auxiliary": [
+            "auxiliary/scanner/http/sybase_easerver_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2014-5337",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_mobile_pack_info_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2012-4031",
+        "auxiliary": [
+            "auxiliary/scanner/http/wangkongbao_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2015-0966",
+        "auxiliary": [
+            "auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss"
+        ]
+    },
+    {
+        "name": "CVE-2011-3192",
+        "auxiliary": [
+            "auxiliary/dos/http/apache_range_dos"
+        ]
+    },
+    {
+        "name": "CVE-2017-7581",
+        "auxiliary": [
+            "auxiliary/admin/http/typo3_news_module_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2015-1126",
+        "auxiliary": [
+            "auxiliary/gather/apple_safari_ftp_url_cookie_theft"
+        ]
+    },
+    {
+        "name": "CVE-2018-17888",
+        "auxiliary": [
+            "auxiliary/gather/nuuo_cms_bruteforce"
+        ]
+    },
+    {
+        "name": "CVE-2018-1000115",
+        "auxiliary": [
+            "auxiliary/scanner/memcached/memcached_amp"
+        ]
+    },
+    {
+        "name": "CVE-2021-4191",
+        "auxiliary": [
+            "auxiliary/scanner/http/gitlab_graphql_user_enum"
+        ]
+    },
+    {
+        "name": "CVE-2020-14181",
+        "auxiliary": [
+            "auxiliary/scanner/http/jira_user_enum"
+        ]
+    },
+    {
+        "name": "CVE-2020-17519",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_flink_jobmanager_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2019-2557",
+        "auxiliary": [
+            "auxiliary/gather/oats_downloadservlet_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2018-9160",
+        "auxiliary": [
+            "auxiliary/scanner/http/http_sickrage_password_leak"
+        ]
+    },
+    {
+        "name": "CVE-2020-3952",
+        "auxiliary": [
+            "auxiliary/gather/ldap_hashdump",
+            "auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass",
+            "auxiliary/gather/vmware_vcenter_vmdir_ldap"
+        ]
+    },
+    {
+        "name": "CVE-2003-0270",
+        "auxiliary": [
+            "auxiliary/scanner/acpp/login"
+        ]
+    },
+    {
+        "name": "CVE-2019-1621",
+        "auxiliary": [
+            "auxiliary/admin/networking/cisco_dcnm_download"
+        ]
+    },
+    {
+        "name": "CVE-2015-7297",
+        "auxiliary": [
+            "auxiliary/gather/joomla_contenthistory_sqli"
+        ]
+    },
+    {
+        "name": "CVE-1999-0504",
+        "auxiliary": [
+            "auxiliary/scanner/smb/psexec_loggedin_users"
+        ]
+    },
+    {
+        "name": "CVE-2007-4915",
+        "auxiliary": [
+            "auxiliary/admin/http/intersil_pass_reset"
+        ]
+    },
+    {
+        "name": "CVE-2016-10134",
+        "auxiliary": [
+            "auxiliary/gather/zabbix_toggleids_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2019-13373",
+        "auxiliary": [
+            "auxiliary/sqli/dlink/dlink_central_wifimanager_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2009-3548",
+        "auxiliary": [
+            "auxiliary/scanner/http/tomcat_mgr_login"
+        ]
+    },
+    {
+        "name": "CVE-2004-1550",
+        "auxiliary": [
+            "auxiliary/admin/motorola/wr850g_cred"
+        ]
+    },
+    {
+        "name": "CVE-2021-27850",
+        "auxiliary": [
+            "auxiliary/gather/cve_2021_27850_apache_tapestry_hmac_key"
+        ]
+    },
+    {
+        "name": "CVE-2017-16249",
+        "auxiliary": [
+            "auxiliary/dos/http/brother_debut_dos"
+        ]
+    },
+    {
+        "name": "CVE-2023-21554",
+        "auxiliary": [
+            "auxiliary/scanner/msmq/cve_2023_21554_queuejumper"
+        ]
+    },
+    {
+        "name": "CVE-2020-6010",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_learnpress_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2015-6922",
+        "auxiliary": [
+            "auxiliary/admin/http/kaseya_master_admin"
+        ]
+    },
+    {
+        "name": "CVE-2005-2611",
+        "auxiliary": [
+            "auxiliary/admin/backupexec/dump"
+        ]
+    },
+    {
+        "name": "CVE-2011-0049",
+        "auxiliary": [
+            "auxiliary/scanner/http/majordomo2_directory_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2010-0103",
+        "auxiliary": [
+            "auxiliary/scanner/backdoor/energizer_duo_detect"
+        ]
+    },
+    {
+        "name": "CVE-2017-14117",
+        "auxiliary": [
+            "auxiliary/scanner/wproxy/att_open_proxy"
+        ]
+    },
+    {
+        "name": "CVE-2012-5192",
+        "auxiliary": [
+            "auxiliary/scanner/http/bitweaver_overlay_type_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2017-12635",
+        "auxiliary": [
+            "auxiliary/scanner/couchdb/couchdb_enum"
+        ]
+    },
+    {
+        "name": "CVE-2009-3960",
+        "auxiliary": [
+            "auxiliary/scanner/http/adobe_xml_inject"
+        ]
+    },
+    {
+        "name": "CVE-1999-0532",
+        "auxiliary": [
+            "auxiliary/gather/enum_dns"
+        ]
+    },
+    {
+        "name": "CVE-2015-4495",
+        "auxiliary": [
+            "auxiliary/gather/firefox_pdfjs_file_theft"
+        ]
+    },
+    {
+        "name": "CVE-2012-5958",
+        "auxiliary": [
+            "auxiliary/scanner/upnp/ssdp_msearch"
+        ]
+    },
+    {
+        "name": "CVE-2013-3336",
+        "auxiliary": [
+            "auxiliary/gather/coldfusion_pwd_props"
+        ]
+    },
+    {
+        "name": "CVE-2012-1675",
+        "auxiliary": [
+            "auxiliary/scanner/oracle/tnspoison_checker"
+        ]
+    },
+    {
+        "name": "CVE-2021-24931",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_secure_copy_content_protection_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2013-6414",
+        "auxiliary": [
+            "auxiliary/dos/http/rails_action_view"
+        ]
+    },
+    {
+        "name": "CVE-2006-5229",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/ssh_enumusers"
+        ]
+    },
+    {
+        "name": "CVE-2016-10176",
+        "auxiliary": [
+            "auxiliary/admin/http/netgear_wnr2000_pass_recovery"
+        ]
+    },
+    {
+        "name": "CVE-1999-0554",
+        "auxiliary": [
+            "auxiliary/scanner/nfs/nfsmount"
+        ]
+    },
+    {
+        "name": "CVE-1999-0170",
+        "auxiliary": [
+            "auxiliary/scanner/nfs/nfsmount"
+        ]
+    },
+    {
+        "name": "CVE-2010-1871",
+        "auxiliary": [
+            "auxiliary/admin/http/jboss_seam_exec"
+        ]
+    },
+    {
+        "name": "CVE-2016-6602",
+        "auxiliary": [
+            "auxiliary/admin/http/webnms_cred_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2018-2392",
+        "auxiliary": [
+            "auxiliary/admin/sap/sap_igs_xmlchart_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2011-3556",
+        "auxiliary": [
+            "auxiliary/scanner/misc/java_rmi_server"
+        ]
+    },
+    {
+        "name": "CVE-2014-8586",
+        "auxiliary": [
+            "auxiliary/scanner/http/wordpress_cp_calendar_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2011-2750",
+        "auxiliary": [
+            "auxiliary/admin/http/novell_file_reporter_filedelete"
+        ]
+    },
+    {
+        "name": "CVE-2022-24716",
+        "auxiliary": [
+            "auxiliary/scanner/http/icinga_static_library_file_directory_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2008-1311",
+        "auxiliary": [
+            "auxiliary/dos/windows/tftp/pt360_write"
+        ]
+    },
+    {
+        "name": "CVE-2021-24862",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_registrationmagic_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2010-3972",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof"
+        ]
+    },
+    {
+        "name": "CVE-2014-0160",
+        "auxiliary": [
+            "auxiliary/server/openssl_heartbeat_client_memory",
+            "auxiliary/scanner/ssl/openssl_heartbleed"
+        ]
+    },
+    {
+        "name": "CVE-2011-4404",
+        "auxiliary": [
+            "auxiliary/scanner/vmware/vmware_update_manager_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2014-4877",
+        "auxiliary": [
+            "auxiliary/server/wget_symlink_file_write"
+        ]
+    },
+    {
+        "name": "CVE-2023-2825",
+        "auxiliary": [
+            "auxiliary/gather/gitlab_authenticated_subgroups_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2012-5202",
+        "auxiliary": [
+            "auxiliary/scanner/http/hp_imc_faultdownloadservlet_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2006-5614",
+        "auxiliary": [
+            "auxiliary/dos/windows/nat/nat_helper"
+        ]
+    },
+    {
+        "name": "CVE-2020-35578",
+        "auxiliary": [
+            "auxiliary/scanner/http/nagios_xi_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2013-6129",
+        "auxiliary": [
+            "auxiliary/admin/http/vbulletin_upgrade_admin"
+        ]
+    },
+    {
+        "name": "CVE-2022-34877",
+        "auxiliary": [
+            "auxiliary/scanner/http/vicidial_multiple_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2019-12258",
+        "auxiliary": [
+            "auxiliary/scanner/vxworks/urgent11_check"
+        ]
+    },
+    {
+        "name": "CVE-2019-19781",
+        "auxiliary": [
+            "auxiliary/scanner/http/citrix_dir_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2020-4427",
+        "auxiliary": [
+            "auxiliary/admin/http/ibm_drm_download"
+        ]
+    },
+    {
+        "name": "CVE-2013-0653",
+        "auxiliary": [
+            "auxiliary/admin/scada/ge_proficy_substitute_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2017-17427",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2008-5626",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/xmeasy560_nlst",
+            "auxiliary/dos/windows/ftp/xmeasy570_nlst"
+        ]
+    },
+    {
+        "name": "CVE-2017-0145",
+        "auxiliary": [
+            "auxiliary/scanner/smb/smb_ms17_010"
+        ]
+    },
+    {
+        "name": "CVE-2015-4000",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/ssl_version"
+        ]
+    },
+    {
+        "name": "CVE-2014-2127",
+        "auxiliary": [
+            "auxiliary/scanner/http/cisco_ssl_vpn_priv_esc"
+        ]
+    },
+    {
+        "name": "CVE-2012-6301",
+        "auxiliary": [
+            "auxiliary/dos/android/android_stock_browser_iframe"
+        ]
+    },
+    {
+        "name": "CVE-2016-6601",
+        "auxiliary": [
+            "auxiliary/admin/http/webnms_file_download",
+            "auxiliary/admin/http/webnms_cred_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2014-9034",
+        "auxiliary": [
+            "auxiliary/dos/http/wordpress_long_password_dos"
+        ]
+    },
+    {
+        "name": "CVE-2018-19207",
+        "auxiliary": [
+            "auxiliary/admin/http/wp_gdpr_compliance_privesc"
+        ]
+    },
+    {
+        "name": "CVE-2021-34429",
+        "auxiliary": [
+            "auxiliary/gather/jetty_web_inf_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2015-0072",
+        "auxiliary": [
+            "auxiliary/gather/ie_uxss_injection"
+        ]
+    },
+    {
+        "name": "CVE-2013-0156",
+        "auxiliary": [
+            "auxiliary/scanner/http/rails_xml_yaml_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2012-1803",
+        "auxiliary": [
+            "auxiliary/scanner/telnet/telnet_ruggedcom"
+        ]
+    },
+    {
+        "name": "CVE-2008-4572",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/guildftp_cwdlist"
+        ]
+    },
+    {
+        "name": "CVE-2007-4387",
+        "auxiliary": [
+            "auxiliary/admin/2wire/xslt_password_reset"
+        ]
+    },
+    {
+        "name": "CVE-2017-17692",
+        "auxiliary": [
+            "auxiliary/gather/samsung_browser_sop_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2005-3398",
+        "auxiliary": [
+            "auxiliary/scanner/http/trace",
+            "auxiliary/scanner/http/options"
+        ]
+    },
+    {
+        "name": "CVE-2013-0229",
+        "auxiliary": [
+            "auxiliary/dos/upnp/miniupnpd_dos",
+            "auxiliary/scanner/upnp/ssdp_msearch"
+        ]
+    },
+    {
+        "name": "CVE-2020-5723",
+        "auxiliary": [
+            "auxiliary/gather/grandstream_ucm62xx_sql_account_guess"
+        ]
+    },
+    {
+        "name": "CVE-2015-2065",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_contus_video_gallery_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2006-3392",
+        "auxiliary": [
+            "auxiliary/admin/webmin/file_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2020-11455",
+        "auxiliary": [
+            "auxiliary/scanner/http/limesurvey_zip_traversals"
+        ]
+    },
+    {
+        "name": "CVE-2020-8617",
+        "auxiliary": [
+            "auxiliary/dos/dns/bind_tsig_badtime"
+        ]
+    },
+    {
+        "name": "CVE-2013-5877",
+        "auxiliary": [
+            "auxiliary/scanner/http/oracle_demantra_file_retrieval"
+        ]
+    },
+    {
+        "name": "CVE-2023-7028",
+        "auxiliary": [
+            "auxiliary/admin/http/gitlab_password_reset_account_takeover"
+        ]
+    },
+    {
+        "name": "CVE-2018-0296",
+        "auxiliary": [
+            "auxiliary/scanner/http/cisco_directory_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2014-7816",
+        "auxiliary": [
+            "auxiliary/scanner/http/wildfly_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2011-3305",
+        "auxiliary": [
+            "auxiliary/scanner/http/cisco_nac_manager_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2013-1814",
+        "auxiliary": [
+            "auxiliary/gather/apache_rave_creds"
+        ]
+    },
+    {
+        "name": "CVE-2021-41773",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_normalize_path"
+        ]
+    },
+    {
+        "name": "CVE-2010-0870",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/dbms_cdc_publish2"
+        ]
+    },
+    {
+        "name": "CVE-2020-6207",
+        "auxiliary": [
+            "auxiliary/admin/sap/cve_2020_6207_solman_rce"
+        ]
+    },
+    {
+        "name": "CVE-2019-19833",
+        "auxiliary": [
+            "auxiliary/dos/http/tautulli_shutdown_exec"
+        ]
+    },
+    {
+        "name": "CVE-2021-24917",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_wps_hide_login_revealer"
+        ]
+    },
+    {
+        "name": "CVE-1999-0502",
+        "auxiliary": [
+            "auxiliary/scanner/telnet/brocade_enable_login",
+            "auxiliary/scanner/http/dlink_dir_300_615_http_login",
+            "auxiliary/scanner/http/dlink_dir_session_cgi_http_login",
+            "auxiliary/scanner/http/dlink_dir_615h_http_login",
+            "auxiliary/scanner/db2/db2_auth",
+            "auxiliary/scanner/http/dell_idrac",
+            "auxiliary/scanner/ftp/ftp_login",
+            "auxiliary/scanner/http/http_login",
+            "auxiliary/scanner/http/joomla_bruteforce_login",
+            "auxiliary/scanner/mysql/mysql_login",
+            "auxiliary/scanner/nntp/nntp_login",
+            "auxiliary/scanner/oracle/oracle_login",
+            "auxiliary/scanner/pcanywhere/pcanywhere_login",
+            "auxiliary/scanner/postgres/postgres_login",
+            "auxiliary/scanner/ssh/ssh_login",
+            "auxiliary/scanner/telnet/telnet_login",
+            "auxiliary/scanner/http/tomcat_mgr_login",
+            "auxiliary/scanner/vmware/vmauthd_login",
+            "auxiliary/scanner/vmware/vmware_http_login",
+            "auxiliary/scanner/winrm/winrm_login",
+            "auxiliary/scanner/http/wordpress_xmlrpc_login",
+            "auxiliary/scanner/rservices/rexec_login",
+            "auxiliary/scanner/rservices/rlogin_login",
+            "auxiliary/scanner/rservices/rsh_login"
+        ]
+    },
+    {
+        "name": "CVE-2014-4872",
+        "auxiliary": [
+            "auxiliary/gather/trackit_sql_domain_creds"
+        ]
+    },
+    {
+        "name": "CVE-2009-0978",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/lt_rollbackworkspace"
+        ]
+    },
+    {
+        "name": "CVE-1999-0103",
+        "auxiliary": [
+            "auxiliary/scanner/chargen/chargen_probe"
+        ]
+    },
+    {
+        "name": "CVE-2015-0240",
+        "auxiliary": [
+            "auxiliary/scanner/smb/smb_uninit_cred"
+        ]
+    },
+    {
+        "name": "CVE-2017-0146",
+        "auxiliary": [
+            "auxiliary/admin/smb/ms17_010_command",
+            "auxiliary/scanner/smb/smb_ms17_010"
+        ]
+    },
+    {
+        "name": "CVE-2013-0230",
+        "auxiliary": [
+            "auxiliary/scanner/upnp/ssdp_msearch"
+        ]
+    },
+    {
+        "name": "CVE-2016-8869",
+        "auxiliary": [
+            "auxiliary/admin/http/joomla_registration_privesc"
+        ]
+    },
+    {
+        "name": "CVE-2015-1793",
+        "auxiliary": [
+            "auxiliary/server/openssl_altchainsforgery_mitm_proxy"
+        ]
+    },
+    {
+        "name": "CVE-2012-4956",
+        "auxiliary": [
+            "auxiliary/dos/http/novell_file_reporter_heap_bof"
+        ]
+    },
+    {
+        "name": "CVE-2019-20085",
+        "auxiliary": [
+            "auxiliary/scanner/http/tvt_nvms_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2018-14912",
+        "auxiliary": [
+            "auxiliary/scanner/http/cgit_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2005-2120",
+        "auxiliary": [
+            "auxiliary/dos/windows/smb/ms05_047_pnp"
+        ]
+    },
+    {
+        "name": "CVE-2016-1909",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/fortinet_backdoor"
+        ]
+    },
+    {
+        "name": "CVE-2021-31806",
+        "auxiliary": [
+            "auxiliary/dos/http/squid_range_dos"
+        ]
+    },
+    {
+        "name": "CVE-2011-4971",
+        "auxiliary": [
+            "auxiliary/dos/misc/memcached"
+        ]
+    },
+    {
+        "name": "CVE-2009-4188",
+        "auxiliary": [
+            "auxiliary/scanner/http/tomcat_mgr_login"
+        ]
+    },
+    {
+        "name": "CVE-2013-0235",
+        "auxiliary": [
+            "auxiliary/scanner/http/wordpress_pingback_access"
+        ]
+    },
+    {
+        "name": "CVE-2021-28164",
+        "auxiliary": [
+            "auxiliary/gather/jetty_web_inf_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2016-6210",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/ssh_enumusers"
+        ]
+    },
+    {
+        "name": "CVE-2009-2367",
+        "auxiliary": [
+            "auxiliary/admin/http/iomega_storcenterpro_sessionid"
+        ]
+    },
+    {
+        "name": "CVE-2016-3236",
+        "auxiliary": [
+            "auxiliary/server/netbios_spoof_nat"
+        ]
+    },
+    {
+        "name": "CVE-2017-5259",
+        "auxiliary": [
+            "auxiliary/admin/http/cnpilot_r_cmd_exec"
+        ]
+    },
+    {
+        "name": "CVE-2011-4885",
+        "auxiliary": [
+            "auxiliary/dos/http/hashcollision_dos"
+        ]
+    },
+    {
+        "name": "CVE-2023-0342",
+        "auxiliary": [
+            "auxiliary/gather/mongodb_ops_manager_diagnostic_archive_info"
+        ]
+    },
+    {
+        "name": "CVE-2015-8103",
+        "auxiliary": [
+            "auxiliary/scanner/http/jenkins_command"
+        ]
+    },
+    {
+        "name": "CVE-2010-3714",
+        "auxiliary": [
+            "auxiliary/admin/http/typo3_sa_2010_020"
+        ]
+    },
+    {
+        "name": "CVE-2012-0419",
+        "auxiliary": [
+            "auxiliary/scanner/http/groupwise_agents_http_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2015-5531",
+        "auxiliary": [
+            "auxiliary/scanner/http/elasticsearch_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2011-4050",
+        "auxiliary": [
+            "auxiliary/dos/scada/igss9_dataserver"
+        ]
+    },
+    {
+        "name": "CVE-2012-4933",
+        "auxiliary": [
+            "auxiliary/scanner/http/zenworks_assetmanagement_getconfig",
+            "auxiliary/scanner/http/zenworks_assetmanagement_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2017-1130",
+        "auxiliary": [
+            "auxiliary/dos/http/ibm_lotus_notes2"
+        ]
+    },
+    {
+        "name": "CVE-2013-3975",
+        "auxiliary": [
+            "auxiliary/gather/ibm_sametime_enumerate_users"
+        ]
+    },
+    {
+        "name": "CVE-2016-1524",
+        "auxiliary": [
+            "auxiliary/admin/http/netgear_auth_download"
+        ]
+    },
+    {
+        "name": "CVE-2009-2514",
+        "auxiliary": [
+            "auxiliary/dos/windows/browser/ms09_065_eot_integer"
+        ]
+    },
+    {
+        "name": "CVE-2014-8799",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_dukapress_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2008-3656",
+        "auxiliary": [
+            "auxiliary/dos/http/webrick_regex"
+        ]
+    },
+    {
+        "name": "CVE-2018-13379",
+        "auxiliary": [
+            "auxiliary/gather/fortios_vpnssl_traversal_creds_leak"
+        ]
+    },
+    {
+        "name": "CVE-2013-3617",
+        "auxiliary": [
+            "auxiliary/admin/http/openbravo_xxe"
+        ]
+    },
+    {
+        "name": "CVE-2011-4350",
+        "auxiliary": [
+            "auxiliary/scanner/http/yaws_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2015-7755",
+        "auxiliary": [
+            "auxiliary/scanner/ssh/juniper_backdoor"
+        ]
+    },
+    {
+        "name": "CVE-2021-26855",
+        "auxiliary": [
+            "auxiliary/gather/exchange_proxylogon_collector",
+            "auxiliary/scanner/http/exchange_proxylogon"
+        ]
+    },
+    {
+        "name": "CVE-2014-7863",
+        "auxiliary": [
+            "auxiliary/admin/http/manageengine_dir_listing",
+            "auxiliary/admin/http/manageengine_file_download"
+        ]
+    },
+    {
+        "name": "CVE-2012-6663",
+        "auxiliary": [
+            "auxiliary/gather/d20pass"
+        ]
+    },
+    {
+        "name": "CVE-2010-2115",
+        "auxiliary": [
+            "auxiliary/dos/windows/tftp/solarwinds"
+        ]
+    },
+    {
+        "name": "CVE-2015-2673",
+        "auxiliary": [
+            "auxiliary/admin/http/wp_easycart_privilege_escalation"
+        ]
+    },
+    {
+        "name": "CVE-2018-6317",
+        "auxiliary": [
+            "auxiliary/dos/tcp/claymore_dos"
+        ]
+    },
+    {
+        "name": "CVE-2010-2426",
+        "auxiliary": [
+            "auxiliary/scanner/ftp/titanftp_xcrc_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2021-43798",
+        "auxiliary": [
+            "auxiliary/scanner/http/grafana_plugin_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2022-46770",
+        "auxiliary": [
+            "auxiliary/dos/mirageos/qubes_mirage_firewall_dos"
+        ]
+    },
+    {
+        "name": "CVE-2016-8870",
+        "auxiliary": [
+            "auxiliary/admin/http/joomla_registration_privesc"
+        ]
+    },
+    {
+        "name": "CVE-2017-5261",
+        "auxiliary": [
+            "auxiliary/admin/http/cnpilot_r_fpt"
+        ]
+    },
+    {
+        "name": "CVE-2013-3319",
+        "auxiliary": [
+            "auxiliary/scanner/sap/sap_hostctrl_getcomputersystem"
+        ]
+    },
+    {
+        "name": "CVE-2014-5445",
+        "auxiliary": [
+            "auxiliary/admin/http/netflow_file_download"
+        ]
+    },
+    {
+        "name": "CVE-2017-1001000",
+        "auxiliary": [
+            "auxiliary/scanner/http/wordpress_content_injection"
+        ]
+    },
+    {
+        "name": "CVE-2013-4615",
+        "auxiliary": [
+            "auxiliary/dos/http/canon_wireless_printer"
+        ]
+    },
+    {
+        "name": "CVE-2010-2263",
+        "auxiliary": [
+            "auxiliary/scanner/http/nginx_source_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2023-20198",
+        "auxiliary": [
+            "auxiliary/admin/http/cisco_ios_xe_cli_exec_cve_2023_20198",
+            "auxiliary/admin/http/cisco_ios_xe_os_exec_cve_2023_20273"
+        ]
+    },
+    {
+        "name": "CVE-2011-0807",
+        "auxiliary": [
+            "auxiliary/scanner/http/glassfish_login"
+        ]
+    },
+    {
+        "name": "CVE-2011-3486",
+        "auxiliary": [
+            "auxiliary/dos/scada/beckhoff_twincat"
+        ]
+    },
+    {
+        "name": "CVE-2008-5448",
+        "auxiliary": [
+            "auxiliary/admin/oracle/osb_execqr"
+        ]
+    },
+    {
+        "name": "CVE-2017-9554",
+        "auxiliary": [
+            "auxiliary/scanner/http/synology_forget_passwd_user_enum"
+        ]
+    },
+    {
+        "name": "CVE-2017-12373",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2020-26948",
+        "auxiliary": [
+            "auxiliary/scanner/http/emby_ssrf_scanner",
+            "auxiliary/scanner/http/emby_version_ssrf"
+        ]
+    },
+    {
+        "name": "CVE-2014-9707",
+        "auxiliary": [
+            "auxiliary/scanner/http/goahead_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2013-3843",
+        "auxiliary": [
+            "auxiliary/dos/http/monkey_headers"
+        ]
+    },
+    {
+        "name": "CVE-2008-6829",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/vicftps50_list"
+        ]
+    },
+    {
+        "name": "CVE-2017-8779",
+        "auxiliary": [
+            "auxiliary/dos/rpc/rpcbomb"
+        ]
+    },
+    {
+        "name": "CVE-2013-4074",
+        "auxiliary": [
+            "auxiliary/dos/wireshark/capwap"
+        ]
+    },
+    {
+        "name": "CVE-2014-9222",
+        "auxiliary": [
+            "auxiliary/admin/http/allegro_rompager_auth_bypass",
+            "auxiliary/scanner/http/allegro_rompager_misfortune_cookie"
+        ]
+    },
+    {
+        "name": "CVE-2009-2521",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/iis_list_exhaustion"
+        ]
+    },
+    {
+        "name": "CVE-2012-4940",
+        "auxiliary": [
+            "auxiliary/admin/http/axigen_file_access"
+        ]
+    },
+    {
+        "name": "CVE-2007-5511",
+        "auxiliary": [
+            "auxiliary/sqli/oracle/lt_findricset_cursor"
+        ]
+    },
+    {
+        "name": "CVE-2016-6883",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2012-2122",
+        "auxiliary": [
+            "auxiliary/scanner/mysql/mysql_authbypass_hashdump"
+        ]
+    },
+    {
+        "name": "CVE-2013-3982",
+        "auxiliary": [
+            "auxiliary/gather/ibm_sametime_version"
+        ]
+    },
+    {
+        "name": "CVE-2012-2215",
+        "auxiliary": [
+            "auxiliary/scanner/misc/zenworks_preboot_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2014-6039",
+        "auxiliary": [
+            "auxiliary/gather/eventlog_cred_disclosure"
+        ]
+    },
+    {
+        "name": "CVE-2012-5204",
+        "auxiliary": [
+            "auxiliary/scanner/http/hp_imc_ictdownloadservlet_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2021-42013",
+        "auxiliary": [
+            "auxiliary/scanner/http/apache_normalize_path"
+        ]
+    },
+    {
+        "name": "CVE-2014-100002",
+        "auxiliary": [
+            "auxiliary/scanner/http/support_center_plus_directory_traversal"
+        ]
+    },
+    {
+        "name": "CVE-1999-0517",
+        "auxiliary": [
+            "auxiliary/scanner/snmp/snmp_login",
+            "auxiliary/scanner/snmp/snmp_enum"
+        ]
+    },
+    {
+        "name": "CVE-2004-0795",
+        "auxiliary": [
+            "auxiliary/admin/db2/db2rcmd"
+        ]
+    },
+    {
+        "name": "CVE-2014-0195",
+        "auxiliary": [
+            "auxiliary/dos/ssl/dtls_fragment_overflow"
+        ]
+    },
+    {
+        "name": "CVE-2017-6168",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/bleichenbacher_oracle"
+        ]
+    },
+    {
+        "name": "CVE-2013-0136",
+        "auxiliary": [
+            "auxiliary/admin/http/mutiny_frontend_read_delete"
+        ]
+    },
+    {
+        "name": "CVE-2011-4858",
+        "auxiliary": [
+            "auxiliary/dos/http/hashcollision_dos"
+        ]
+    },
+    {
+        "name": "CVE-2013-6031",
+        "auxiliary": [
+            "auxiliary/gather/huawei_wifi_info"
+        ]
+    },
+    {
+        "name": "CVE-2021-45046",
+        "auxiliary": [
+            "auxiliary/scanner/http/log4shell_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2017-5255",
+        "auxiliary": [
+            "auxiliary/scanner/http/epmp1000_get_chart_cmd_exec"
+        ]
+    },
+    {
+        "name": "CVE-2022-0441",
+        "auxiliary": [
+            "auxiliary/admin/http/wp_masterstudy_privesc"
+        ]
+    },
+    {
+        "name": "CVE-2019-7192",
+        "auxiliary": [
+            "auxiliary/gather/qnap_lfi"
+        ]
+    },
+    {
+        "name": "CVE-2022-3358",
+        "auxiliary": [
+            "auxiliary/scanner/ssl/ssl_version"
+        ]
+    },
+    {
+        "name": "CVE-2017-7918",
+        "auxiliary": [
+            "auxiliary/scanner/snmp/epmp1000_snmp_loot"
+        ]
+    },
+    {
+        "name": "CVE-2020-11530",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_chopslider_id_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2018-10094",
+        "auxiliary": [
+            "auxiliary/gather/dolibarr_creds_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2006-4313",
+        "auxiliary": [
+            "auxiliary/admin/networking/cisco_vpn_3000_ftp_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2013-5211",
+        "auxiliary": [
+            "auxiliary/scanner/ntp/ntp_readvar",
+            "auxiliary/scanner/ntp/ntp_req_nonce_dos",
+            "auxiliary/scanner/ntp/ntp_unsettrap_dos",
+            "auxiliary/scanner/ntp/ntp_reslist_dos",
+            "auxiliary/scanner/ntp/ntp_peer_list_dos",
+            "auxiliary/scanner/ntp/ntp_peer_list_sum_dos",
+            "auxiliary/scanner/ntp/ntp_monlist",
+            "auxiliary/scanner/portmap/portmap_amp",
+            "auxiliary/scanner/upnp/ssdp_amp",
+            "auxiliary/scanner/udp/udp_amplification"
+        ]
+    },
+    {
+        "name": "CVE-2016-2776",
+        "auxiliary": [
+            "auxiliary/dos/dns/bind_tsig"
+        ]
+    },
+    {
+        "name": "CVE-2013-2050",
+        "auxiliary": [
+            "auxiliary/admin/http/cfme_manageiq_evm_pass_reset"
+        ]
+    },
+    {
+        "name": "CVE-2022-36536",
+        "auxiliary": [
+            "auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536"
+        ]
+    },
+    {
+        "name": "CVE-2013-4786",
+        "auxiliary": [
+            "auxiliary/scanner/ipmi/ipmi_dumphashes"
+        ]
+    },
+    {
+        "name": "CVE-2015-2993",
+        "auxiliary": [
+            "auxiliary/admin/http/sysaid_admin_acct"
+        ]
+    },
+    {
+        "name": "CVE-2017-16086",
+        "auxiliary": [
+            "auxiliary/dos/http/ua_parser_js_redos"
+        ]
+    },
+    {
+        "name": "CVE-2013-2113",
+        "auxiliary": [
+            "auxiliary/admin/http/foreman_openstack_satellite_priv_esc"
+        ]
+    },
+    {
+        "name": "CVE-2011-0951",
+        "auxiliary": [
+            "auxiliary/admin/networking/cisco_secure_acs_bypass"
+        ]
+    },
+    {
+        "name": "CVE-2022-34878",
+        "auxiliary": [
+            "auxiliary/scanner/http/vicidial_multiple_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2000-0380",
+        "auxiliary": [
+            "auxiliary/dos/cisco/ios_http_percentpercent"
+        ]
+    },
+    {
+        "name": "CVE-2021-32706",
+        "auxiliary": [
+            "auxiliary/admin/http/pihole_domains_api_exec"
+        ]
+    },
+    {
+        "name": "CVE-2023-28121",
+        "auxiliary": [
+            "auxiliary/scanner/http/wp_woocommerce_payments_add_user"
+        ]
+    },
+    {
+        "name": "CVE-2010-1428",
+        "auxiliary": [
+            "auxiliary/scanner/http/jboss_vulnscan"
+        ]
+    },
+    {
+        "name": "CVE-2018-15442",
+        "auxiliary": [
+            "auxiliary/admin/smb/webexec_command"
+        ]
+    },
+    {
+        "name": "CVE-2014-0659",
+        "auxiliary": [
+            "auxiliary/scanner/misc/sercomm_backdoor_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2006-6565",
+        "auxiliary": [
+            "auxiliary/dos/windows/ftp/filezilla_server_port"
+        ]
+    },
+    {
+        "name": "CVE-2017-6527",
+        "auxiliary": [
+            "auxiliary/scanner/http/dnalims_file_retrieve"
+        ]
+    },
+    {
+        "name": "CVE-2022-34876",
+        "auxiliary": [
+            "auxiliary/scanner/http/vicidial_multiple_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2016-2298",
+        "auxiliary": [
+            "auxiliary/scanner/http/meteocontrol_weblog_extractadmin"
+        ]
+    },
+    {
+        "name": "CVE-2012-2926",
+        "auxiliary": [
+            "auxiliary/scanner/http/atlassian_crowd_fileaccess"
+        ]
+    },
+    {
+        "name": "CVE-2007-2446",
+        "auxiliary": [
+            "auxiliary/dos/samba/lsa_addprivs_heap",
+            "auxiliary/dos/samba/lsa_transnames_heap"
+        ]
+    },
+    {
+        "name": "CVE-2018-10583",
+        "auxiliary": [
+            "auxiliary/fileformat/odt_badodt"
+        ]
+    },
+    {
+        "name": "CVE-2021-44228",
+        "auxiliary": [
+            "auxiliary/scanner/http/log4shell_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2013-3623",
+        "auxiliary": [
+            "auxiliary/scanner/http/smt_ipmi_cgi_scanner"
+        ]
+    },
+    {
+        "name": "CVE-2017-6048",
+        "auxiliary": [
+            "auxiliary/scanner/telnet/satel_cmd_exec"
+        ]
+    },
+    {
+        "name": "CVE-2015-6522",
+        "auxiliary": [
+            "auxiliary/admin/http/wp_symposium_sql_injection"
+        ]
+    },
+    {
+        "name": "CVE-2014-4863",
+        "auxiliary": [
+            "auxiliary/scanner/snmp/arris_dg950"
+        ]
+    },
+    {
+        "name": "CVE-2012-5687",
+        "auxiliary": [
+            "auxiliary/scanner/http/tplink_traversal_noauth"
+        ]
+    },
+    {
+        "name": "CVE-2023-33246",
+        "auxiliary": [
+            "auxiliary/scanner/misc/rocketmq_version"
+        ]
+    },
+    {
+        "name": "CVE-2013-2641",
+        "auxiliary": [
+            "auxiliary/admin/http/sophos_wpa_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2017-0143",
+        "auxiliary": [
+            "auxiliary/admin/smb/ms17_010_command",
+            "auxiliary/scanner/smb/smb_ms17_010"
+        ]
+    },
+    {
+        "name": "CVE-2015-2342",
+        "auxiliary": [
+            "auxiliary/scanner/misc/java_jmx_server"
+        ]
+    },
+    {
+        "name": "CVE-2014-9566",
+        "auxiliary": [
+            "auxiliary/gather/solarwinds_orion_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2014-2238",
+        "auxiliary": [
+            "auxiliary/gather/mantisbt_admin_sqli"
+        ]
+    },
+    {
+        "name": "CVE-2012-5203",
+        "auxiliary": [
+            "auxiliary/scanner/http/hp_imc_reportimgservlt_traversal"
+        ]
+    },
+    {
+        "name": "CVE-2011-4862",
+        "auxiliary": [
+            "auxiliary/scanner/telnet/telnet_encrypt_overflow"
+        ]
+    },
+    {
+        "name": "CVE-2012-5959",
+        "auxiliary": [
+            "auxiliary/scanner/upnp/ssdp_msearch"
+        ]
+    },
+    {
+        "name": "CVE-2014-0781",
+        "auxiliary": [
+            "auxiliary/dos/scada/yokogawa_logsvr"
+        ]
+    },
+    {
+        "name": "CVE-2010-0738",
+        "auxiliary": [
+            "auxiliary/admin/http/jboss_bshdeployer",
+            "auxiliary/admin/http/jboss_deploymentfilerepository",
+            "auxiliary/scanner/http/jboss_vulnscan",
+            "auxiliary/scanner/sap/sap_icm_urlscan"
+        ]
+    },
+    {
+        "name": "CVE-2008-6938",
+        "auxiliary": [
+            "auxiliary/dos/windows/http/pi3web_isapi"
+        ]
+    },
+    {
+        "name": "CVE-2014-0050",
+        "auxiliary": [
+            "auxiliary/dos/http/apache_commons_fileupload_dos"
+        ]
+    }
+]

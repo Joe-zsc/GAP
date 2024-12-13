@@ -1,0 +1,146 @@
+[
+    {
+        "name": "CVE-2019-0307",
+        "post": [
+            "post/multi/sap/smdagent_get_properties"
+        ]
+    },
+    {
+        "name": "CVE-2017-14937",
+        "post": [
+            "post/hardware/automotive/pdt"
+        ]
+    },
+    {
+        "name": "CVE-2012-5525",
+        "post": [
+            "post/linux/dos/xen_420_dos"
+        ]
+    },
+    {
+        "name": "CVE-2001-0152",
+        "post": [
+            "post/windows/gather/credentials/dynazip_log"
+        ]
+    },
+    {
+        "name": "CVE-2023-22649",
+        "post": [
+            "post/linux/gather/rancher_audit_log_leak"
+        ]
+    },
+    {
+        "name": "CVE-2010-2568",
+        "post": [
+            "post/windows/gather/forensics/fanny_bmp_check"
+        ]
+    },
+    {
+        "name": "CVE-2019-18988",
+        "post": [
+            "post/windows/gather/credentials/teamviewer_passwords"
+        ]
+    },
+    {
+        "name": "CVE-2013-6271",
+        "post": [
+            "post/android/manage/remove_lock"
+        ]
+    },
+    {
+        "name": "CVE-2012-5519",
+        "post": [
+            "post/multi/escalate/cups_root_file_read"
+        ]
+    },
+    {
+        "name": "CVE-2007-2617",
+        "post": [
+            "post/solaris/escalate/srsexec_readline"
+        ]
+    },
+    {
+        "name": "CVE-2022-29848",
+        "post": [
+            "post/windows/gather/credentials/whatsupgold_credential_dump"
+        ]
+    },
+    {
+        "name": "CVE-2020-9934",
+        "post": [
+            "post/osx/escalate/tccbypass"
+        ]
+    },
+    {
+        "name": "CVE-2021-36934",
+        "post": [
+            "post/windows/gather/credentials/windows_sam_hivenightmare"
+        ]
+    },
+    {
+        "name": "CVE-2020-8539",
+        "post": [
+            "post/android/local/koffee"
+        ]
+    },
+    {
+        "name": "CVE-2018-0824",
+        "post": [
+            "post/windows/escalate/unmarshal_cmd_exec"
+        ]
+    },
+    {
+        "name": "CVE-2022-29846",
+        "post": [
+            "post/windows/gather/credentials/whatsupgold_credential_dump"
+        ]
+    },
+    {
+        "name": "CVE-2020-8956",
+        "post": [
+            "post/windows/gather/credentials/pulse_secure"
+        ]
+    },
+    {
+        "name": "CVE-2010-2743",
+        "post": [
+            "post/windows/escalate/ms10_073_kbdlayout"
+        ]
+    },
+    {
+        "name": "CVE-2018-20781",
+        "post": [
+            "post/linux/gather/mimipenguin"
+        ]
+    },
+    {
+        "name": "CVE-2021-29133",
+        "post": [
+            "post/linux/gather/haserl_read"
+        ]
+    },
+    {
+        "name": "CVE-2022-22948",
+        "post": [
+            "post/linux/gather/vcenter_secrets_dump"
+        ]
+    },
+    {
+        "name": "CVE-2022-29845",
+        "post": [
+            "post/windows/gather/credentials/whatsupgold_credential_dump"
+        ]
+    },
+    {
+        "name": "CVE-2022-29847",
+        "post": [
+            "post/windows/gather/credentials/whatsupgold_credential_dump"
+        ]
+    },
+    {
+        "name": "CVE-2011-3402",
+        "post": [
+            "post/windows/gather/forensics/duqu_check"
+        ]
+    }
+]
