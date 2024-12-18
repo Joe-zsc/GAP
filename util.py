@@ -11,8 +11,6 @@ import sys, os
 from easydict import EasyDict
 from colorama import init, Fore, Back, Style
 import time
-import IPy
-import socket
 import random
 from copy import deepcopy
 from rich.console import Console

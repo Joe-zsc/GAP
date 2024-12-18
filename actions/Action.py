@@ -3,11 +3,8 @@ from loguru import logger as logging
 import json
 import sys
 import os
-
 import matplotlib.pyplot as plt
 from torch.utils.tensorboard import SummaryWriter
-import csv
-
 curr_path = os.path.dirname(__file__)
 parent_path = os.path.dirname(curr_path)
 sys.path.append(parent_path)  # add current terminal path to sys.path
