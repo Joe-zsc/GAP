@@ -8,3 +8,4 @@
 /running_record
 /NLP_Module/Embedding_models/**
 !/NLP_Module/Embedding_models/readme.md
+/__pycache__

@@ -2,12 +2,6 @@
 from defination import Host_info, Env_data, Action_Result
 
 
-
-
-# try:
-#     from NLP_Module.NER_Module.interact import get_ner
-# except Exception as e:
-#     logging.error("Error: NER module load failed: " + str(e))
 class OSScan:
     
 

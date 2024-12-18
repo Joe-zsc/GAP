@@ -11,16 +11,10 @@ import sys, os
 from easydict import EasyDict
 from colorama import init, Fore, Back, Style
 import time
-from pyecharts.charts import Graph as echartGraph
-from pyecharts import options as opts
 import IPy
 import socket
 import random
-import subprocess
-import nmap
-from defination import Host_info
 from copy import deepcopy
-import ssl
 from rich.console import Console
 import wandb
 import torch
@@ -38,63 +32,6 @@ def set_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
  
-Well_known_ports = {
-    "21": "FTP",
-    "22": "SSH",
-    "23": "Telnet",
-    "25": "SMTP",
-    "53": "DNS",
-    "67": "DHCP-Server",
-    "68": "DHCP-Client",
-    "80": "HTTP",
-    "110": "POP3",
-    "139": "Samba",
-    "161": "SNMP",
-    "443": "HTTPS",
-    "445": "SMB",
-    "554": "RTSP",
-    "1433": "MSSQL",
-    "3306": "MySQL",
-    "3389": "RDP",
-    "4505": "SaltStack",
-    "5432": "PostgreSQL",
-}
-
-
-class IP_:
-    def __init__(self, ip, netmask):
-        self.address = ip
-        self.net_mask = netmask
-
-    def subnet(self):
-        return IPy.IP(self.address + "/" + self.net_mask, make_net=True)
-
-    @classmethod
-    def checkIP(cls, ip_address):
-        try:
-            IPy.IP(ip_address)
-            return True
-        except Exception as e:
-            print(str(ip_address) + "不是ip地址,异常原因：" + str(e))
-            return False
-
-    @classmethod
-    def get_local_ip(cls):
-        """
-        查询本机ip地址
-        :return: ip
-        """
-        try:
-            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            s.connect(("8.8.8.8", 80))
-            ip = s.getsockname()[0]
-        except Exception as e:
-            # print('attack.get_host_ip '+str(e))
-            logging.error("get_local_ip " + str(e))
-        finally:
-            s.close()
-        return ip
-
 
 class Configure:
     conf = configparser.ConfigParser()
@@ -149,105 +86,6 @@ class Metric:
     def __init__(self) -> None:
         pass
 
-
-class Attack_Graph:
-    def __init__(self, init):
-
-        self.nodes = []
-        self.links = []
-        node = opts.GraphNode(name=init.ip,
-                              symbol_size=70,
-                              category=init.info.pivot)
-        self.nodes.append(node)
-        self.num = 0
-
-    def addNodes(self, target):
-
-        self.num += 1
-        source = target.info.prior_node
-        node = opts.GraphNode(name=target.ip,
-                              symbol_size=50,
-                              category=target.info.pivot)
-
-        self.nodes.append(node)
-        edge_label = opts.LabelOpts(
-            is_show=True,
-            position="middle",
-            formatter=str(self.num) + ":" + target.info.vul[0],  # 设置关系说明
-        )
-        link = opts.GraphLink(source=source.ip,
-                              target=target.ip,
-                              label_opts=edge_label)
-        self.links.append(link)
-
-    def pyecharts_render(self, path="result.html"):
-
-        categories = [
-            {
-                "name": "Subnet1",
-                "itemStyle": {
-                    "normal": {
-                        "color": "#6950a1",  # 公司颜色为蓝
-                        "borderColor": "#c4ccd3",
-                        "borderWidth": 1.8,
-                    }
-                },
-            },
-            {
-                "name": "Subnet2",
-                "itemStyle": {
-                    "normal": {
-                        "color": "#0094f7",  # 公司颜色为蓝
-                        "borderColor": "#c4ccd3",
-                        "borderWidth": 1.8,
-                    }
-                },
-            },
-            {
-                "name": "Subnet3",
-                "itemStyle": {
-                    "normal": {
-                        "color": "#f44242",  # 供应商颜色为红
-                        "borderColor": "#c4ccd3",
-                        "borderWidth": 1.8,
-                    }
-                },
-            },
-            {
-                "name": "Subnet4",
-                "itemStyle": {
-                    "normal": {
-                        "color": "#b2d235",  # 供应商颜色为红
-                        "borderColor": "#c4ccd3",
-                        "borderWidth": 1.8,
-                    }
-                },
-            },
-        ]
-
-        g = (
-            echartGraph().add(
-                "",
-                self.nodes,
-                self.links,
-                repulsion=8000,
-                categories=categories,
-                layout="force",
-                is_roam=True,
-                is_draggable=True,
-                edge_symbol=["circle", "arrow"],
-                edge_symbol_size=20,
-                # 图的布局。可选：
-                # 'none' 不采用任何布局，使用节点中提供的 x， y 作为节点的位置。
-                # 'circular' 采用环形布局。
-                # 'force' 采用力引导布局。
-                is_focusnode=True,
-            ).set_global_opts(title_opts=opts.TitleOpts(title="result"))
-            #     .render("显示关系说明的关系图.html")
-        )
-        g.render(path)
-
-
 class UTIL:
     """
     Running Mode:
@@ -266,7 +104,6 @@ class UTIL:
 
     today = datetime.now().strftime("%b%d")
     current_time = datetime.now().strftime("%b%d_%H-%M-%S")
-    local_ip = IP_.get_local_ip()
     lport = random.randint(10000, 20000)
     lport_list = []
     Running_title = ""
@@ -324,7 +161,7 @@ class UTIL:
         credit = """
 + -- --=[ APRIL\t: Autonomous Penetesting based on ReInforcement Learning             ]=-- -- +
 + -- --=[ Author\t: NUDT-HFBOT Team                                   ]=-- -- +
-+ -- --=[ Website\t: https://gitee.com/JoeSC/April  ]=-- -- +
++ -- --=[ Website\t: https://github.com/Joe-zsc/GAP  ]=-- -- +
     """
         print(credit)
 
@@ -379,128 +216,8 @@ class UTIL:
         return result
 
     @classmethod
-    def find_file(cls, file_dir: str, suffix: str):
-        """
-        find all file with spesific suffix, return a dict store their name and path
-        e.g.
-        dict = { "CVE-2017-0143":"EXP/CVE-2017-0143.py",....}
-        """
-        all_py_exp_path = {}
-        for file in os.listdir(file_dir):
-            vul_name = os.path.splitext(file)[0]
-            if os.path.splitext(file)[1] == suffix:
-                all_py_exp_path[vul_name] = os.path.join(file_dir, file)
-        return all_py_exp_path
-
-    @classmethod
-    def get_live_hosts(cls, target):
-        logging.info("扫描--" + target + "--存活主机")
-        nm = nmap.PortScanner()
-        nm.scan(hosts=target, arguments="-sP")  # -sn -Pn
-        live_hosts = []
-        live_hosts = nm.all_hosts()
-        if UTIL.local_ip in live_hosts:
-            live_hosts.remove(UTIL.local_ip)
-        for h in live_hosts:
-            logging.info("存活主机有:" + h)
-        return live_hosts
-
-    @classmethod
-    def check_web_service(cls, host, port):
-        # 尝试HTTP
-        try:
-            with socket.create_connection((host, port), timeout=5) as sock:
-                sock.sendall(b"GET / HTTP/1.1\r\nHost: %s\r\n\r\n" %
-                             host.encode("ascii"))
-                response = sock.recv(1024)
-                if b"HTTP/" in response:
-                    return "HTTP"
-
-            # 如果不是HTTP，再尝试HTTPS
-            with socket.create_connection((host, port), timeout=5) as sock:
-                context = ssl.create_default_context()
-                with context.wrap_socket(sock, server_hostname=host) as ssock:
-                    try:
-                        ssock.sendall(b"GET / HTTP/1.1\r\nHost: %s\r\n\r\n" %
-                                      host.encode("ascii"))
-                        response = ssock.recv(1024)
-                        if b"HTTP/" in response:
-                            return "HTTPS"
-                    except ssl.SSLError:
-                        pass  # 忽略SSL错误，因为我们不确定端口是否为HTTPS
-            return None
-        except (socket.timeout, ConnectionRefusedError, socket.gaierror):
-            logging.debug("Connection failed")
-            return None
-        except Exception as e:
-            logging.debug(f"Error: {str(e)}")
-            return None
-
-    @classmethod
-    def generate_lport(cls):
-        cls.lport = cls.lport + 1
-        while cls.lport in cls.lport_list:
-            cls.lport += 1
-        cls.lport_list.append(cls.lport)
-        return cls.lport
-
-    @classmethod
-    def set_reverse_ip(cls, target_info: Host_info):
-        reverse_ip: str = "0.0.0.0"
-        prior_node = target_info.prior_node
-        if not prior_node:  # 如果没有父节点，默认为本地
-            reverse_ip = cls.local_ip
-        else:
-            prior_node_info: Host_info = prior_node.info
-            if not prior_node_info.intranet_ip:  # 如果父节点没有内网地址
-                reverse_ip = prior_node_info.ip
-            else:
-                intranet_ip = prior_node_info.intranet_ip
-                target_ip = target_info.ip
-                for i_ip in intranet_ip:
-                    if target_ip in i_ip.subnet():
-                        reverse_ip = i_ip.address
-                        break
-
-        logging.info(f"set reverse ip {reverse_ip}")
-        return reverse_ip
-
-    @classmethod
-    def exec_shell_command(cls, command, root=False):
-        password = UTIL.password
-        # status代表返回状态，0表示成功
-        # result代表命令的返回结果
-        if root:
-            (status, result) = subprocess.getstatusoutput(
-                "echo %s| sudo -S %s" % (password, command))
-        else:
-            (status, result) = subprocess.getstatusoutput(command)
-        if not status:
-            logging.debug(f"run {command} success : \n{result}")
-        else:
-            logging.debug(f"run {command} failed:\n{result}")
-        return status, result
-
-    # @classmethod
-    # def add_proxy(cls, ip, port):
-    #     file = "/etc/proxychains.conf"
-    #     s = "socks4 " + ip + ' ' + port + '/n'
-    #     with open(file, 'a+') as f:
-    #         f.write(s)
-
-    
-
-    @classmethod
     def set_logger(cls, print_lever="INFO", logfile_level="DEBUG"):
-        """
-        logger.debug("详细调试信息")
-        logger.info("普通信息")
-        logger.success("成功信息")
-        logger.warning("警告信息")
-        logger.error("错误信息")
-        logger.trace("异常信息")
-        logger.critical("严重错误信息")
-        """
+       
         log_file = cls.project_path / "log" / f"{Path(__file__).parent.stem}.log"
 
         logging.remove()

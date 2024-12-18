@@ -1,7 +1,4 @@
-import sys, os
-from util import Configure, UTIL, Well_known_ports
-import nmap  # pip install python-nmap
-import re
+
 from defination import Host_info, Env_data, Action_Result
 from loguru import logger as logging
 

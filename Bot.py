@@ -31,8 +31,6 @@ from torch.utils.tensorboard import SummaryWriter
 
 
 class BOT:
-    """Deep Q-Network Bot"""
-
     def __init__(
         self,
         mode=0,

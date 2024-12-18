@@ -1,17 +1,11 @@
-from util import Configure, UTIL
-import re
-import sys
-import os
-import time
+
 from defination import Host_info, Env_data,Action_Result
-import nmap #pip install python-nmap
-import re
+
 from loguru import logger as logging
 
 class PortScan:
 
-    # support_ports_str = Configure.get("Support", "port").strip().replace(" ", "")
-    # support_ports = support_ports_str.split(",")  # list
+
 
     def __init__(self, target_info: Host_info, env_data: Env_data = None):
         self.target_ip = target_info.ip

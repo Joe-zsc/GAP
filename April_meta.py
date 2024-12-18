@@ -62,7 +62,7 @@ if __name__ == "__main__":
     parser.add_argument("--save_model",
                         action="store_true",
                         default=False,
-                        help="support PPO D3QN")
+                        help="support PPO")
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--note", type=str, default="", help="wandb note")
     parser.add_argument("--gpu", type=str, default="0", help="gpu id")
